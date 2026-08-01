@@ -1,0 +1,27 @@
+name: One-time unzip setup
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unzip and flatten
+        run: |
+          unzip matchpulse-updated.zip
+          shopt -s dotglob
+          mv matchpulse/* .
+          rmdir matchpulse
+          rm matchpulse-updated.zip
+      - name: Commit extracted files
+        run: |
+          git config user.name "matchpulse-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "chore: unzip initial project files"
+          git push
