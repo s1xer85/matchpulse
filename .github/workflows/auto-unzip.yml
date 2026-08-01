@@ -1,0 +1,52 @@
+name: Auto unzip on upload
+
+on:
+  push:
+    paths:
+      - '*.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find and extract any zip file
+        run: |
+          shopt -s nullglob
+          zips=(*.zip)
+          if [ ${#zips[@]} -eq 0 ]; then
+            echo "No zip file found at repo root. Nothing to do."
+            exit 0
+          fi
+
+          for z in "${zips[@]}"; do
+            echo "Extracting $z"
+            unzip -o "$z" -d _extracted
+            rm "$z"
+          done
+
+          # If everything landed inside one wrapper folder, flatten it up
+          topdirs=$(find _extracted -mindepth 1 -maxdepth 1 -type d | wc -l)
+          topfiles=$(find _extracted -mindepth 1 -maxdepth 1 -type f | wc -l)
+
+          shopt -s dotglob
+          if [ "$topdirs" -eq 1 ] && [ "$topfiles" -eq 0 ]; then
+            inner=$(find _extracted -mindepth 1 -maxdepth 1 -type d)
+            mv "$inner"/* .
+          else
+            mv _extracted/* .
+          fi
+          rm -rf _extracted
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "matchpulse-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --quiet --cached || git commit -m "chore: auto-extract uploaded zip"
+          git diff --quiet --cached || git push
