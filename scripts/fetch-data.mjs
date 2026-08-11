@@ -5,9 +5,9 @@
 //
 // Env: API_FOOTBALL_KEY (required)
 //
-// Free tier is 100 requests/day. This script is written to use ~1-3
-// requests per run (one call per date range needed), well under the
-// ~20/refresh x 4/day budget described in the README.
+// Window: 10 days back (for results/highlights) to 45 days forward (for
+// the fixtures list and to surface more clubs to follow). This still uses
+// only 2 API requests per run, well under the free-tier daily cap.
 
 import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
@@ -15,6 +15,9 @@ import path from 'node:path'
 const API_KEY = process.env.API_FOOTBALL_KEY
 const API_BASE = 'https://v3.football.api-sports.io'
 const OUT_DIR = path.resolve('public/data')
+
+const DAYS_BACK = 10
+const DAYS_FORWARD = 45
 
 if (!API_KEY) {
   console.error('Missing API_FOOTBALL_KEY environment variable.')
@@ -27,6 +30,9 @@ async function apiGet(endpoint, params) {
   const res = await fetch(url, { headers: { 'x-apisports-key': API_KEY } })
   if (!res.ok) throw new Error(`API-Football ${endpoint} failed: ${res.status}`)
   const json = await res.json()
+  if (json.errors && Object.keys(json.errors).length > 0) {
+    console.error('API-Football returned errors:', JSON.stringify(json.errors))
+  }
   return json.response ?? []
 }
 
@@ -67,8 +73,8 @@ async function main() {
   await mkdir(OUT_DIR, { recursive: true })
 
   const today = new Date()
-  const past = new Date(today); past.setDate(past.getDate() - 3)
-  const future = new Date(today); future.setDate(future.getDate() + 14)
+  const past = new Date(today); past.setDate(past.getDate() - DAYS_BACK)
+  const future = new Date(today); future.setDate(future.getDate() + DAYS_FORWARD)
 
   // All countries/competitions including friendlies, per the app's data plan.
   const [pastRaw, futureRaw] = await Promise.all([
@@ -77,13 +83,16 @@ async function main() {
   ])
 
   const finished = pastRaw.map(mapFixture).filter((f) => f.status === 'FT')
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
   const upcoming = futureRaw.map(mapFixture).filter((f) => f.status === 'NS')
     .sort((a, b) => new Date(a.date) - new Date(b.date))
 
   const meta = {
     generatedAt: new Date().toISOString(),
     source: 'api-football.com',
-    fixtureCount: finished.length + upcoming.length
+    fixtureCount: finished.length + upcoming.length,
+    windowDaysBack: DAYS_BACK,
+    windowDaysForward: DAYS_FORWARD
   }
 
   await writeFile(path.join(OUT_DIR, 'upcoming.json'), JSON.stringify(upcoming, null, 2))
