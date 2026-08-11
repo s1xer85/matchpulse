@@ -1,0 +1,62 @@
+name: Auto-unzip uploaded archive
+
+on:
+  push:
+    paths:
+      - '**/*.zip'
+  workflow_dispatch:
+    inputs:
+      zip_path:
+        description: 'Path to the zip file in the repo (leave blank to auto-detect)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find the zip file
+        id: find
+        run: |
+          if [ -n "${{ github.event.inputs.zip_path }}" ]; then
+            ZIP="${{ github.event.inputs.zip_path }}"
+          else
+            ZIP=$(find . -maxdepth 2 -name "*.zip" ! -path "./node_modules/*" | head -n 1)
+          fi
+          if [ -z "$ZIP" ]; then
+            echo "No zip file found in the repo." >&2
+            exit 1
+          fi
+          echo "zip=$ZIP" >> "$GITHUB_OUTPUT"
+          echo "Found: $ZIP"
+
+      - name: Extract
+        run: |
+          ZIP="${{ steps.find.outputs.zip }}"
+          TMP=$(mktemp -d)
+          unzip -q "$ZIP" -d "$TMP"
+
+          ENTRIES=$(ls "$TMP")
+          COUNT=$(echo "$ENTRIES" | wc -l)
+          if [ "$COUNT" -eq 1 ] && [ -d "$TMP/$ENTRIES" ]; then
+            SRC="$TMP/$ENTRIES"
+          else
+            SRC="$TMP"
+          fi
+
+          cp -a "$SRC"/. .
+          rm -f "$ZIP"
+          rm -rf "$TMP"
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "auto-unzip-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "chore: auto-extract uploaded archive"
+          git push
