@@ -1,5 +1,7 @@
 name: Auto-unzip uploaded archive
 
+# Triggers automatically whenever a .zip is pushed to the repo root,
+# or you can run it manually from the Actions tab.
 on:
   push:
     paths:
@@ -35,12 +37,15 @@ jobs:
           echo "zip=$ZIP" >> "$GITHUB_OUTPUT"
           echo "Found: $ZIP"
 
-      - name: Extract
+      - name: Extract (skips .github/workflows — the default token can't write there)
         run: |
           ZIP="${{ steps.find.outputs.zip }}"
           TMP=$(mktemp -d)
           unzip -q "$ZIP" -d "$TMP"
 
+          # If the archive contains a single top-level folder (e.g. "matchpulse/"),
+          # flatten it so the project files land at the repo root instead of
+          # being nested one level deep.
           ENTRIES=$(ls "$TMP")
           COUNT=$(echo "$ENTRIES" | wc -l)
           if [ "$COUNT" -eq 1 ] && [ -d "$TMP/$ENTRIES" ]; then
@@ -49,7 +54,10 @@ jobs:
             SRC="$TMP"
           fi
 
-          cp -a "$SRC"/. .
+          # Copy everything except .github/workflows/** — GitHub blocks the
+          # default GITHUB_TOKEN from creating/modifying workflow files.
+          rsync -a --exclude='.github/workflows/**' "$SRC"/ .
+
           rm -f "$ZIP"
           rm -rf "$TMP"
 
