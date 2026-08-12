@@ -5,9 +5,10 @@
 //
 // Env: API_FOOTBALL_KEY (required)
 //
-// Window: 10 days back (for results/highlights) to 45 days forward (for
-// the fixtures list and to surface more clubs to follow). This still uses
-// only 2 API requests per run, well under the free-tier daily cap.
+// IMPORTANT: the free plan does not reliably return results for a bare
+// from/to date range across all competitions. Fixtures must be requested
+// per league + season instead (same pattern as fetch-teams.mjs), then
+// filtered locally to the date window we care about.
 
 import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
@@ -15,9 +16,17 @@ import path from 'node:path'
 const API_KEY = process.env.API_FOOTBALL_KEY
 const API_BASE = 'https://v3.football.api-sports.io'
 const OUT_DIR = path.resolve('public/data')
+const SEASON = 2026
 
 const DAYS_BACK = 10
 const DAYS_FORWARD = 45
+
+// Same curated league list as fetch-teams.mjs, kept in sync so the
+// fixtures shown match the clubs available to follow.
+const LEAGUES = [
+  39, 140, 135, 78, 61, 94, 88, 203, 71, 128,
+  262, 253, 307, 98, 292, 239, 2, 3, 848, 1
+]
 
 if (!API_KEY) {
   console.error('Missing API_FOOTBALL_KEY environment variable.')
@@ -28,16 +37,15 @@ async function apiGet(endpoint, params) {
   const url = new URL(`${API_BASE}${endpoint}`)
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v)
   const res = await fetch(url, { headers: { 'x-apisports-key': API_KEY } })
-  if (!res.ok) throw new Error(`API-Football ${endpoint} failed: ${res.status}`)
+  if (!res.ok) {
+    console.error(`API-Football ${endpoint} (league ${params.league}) failed: ${res.status}`)
+    return []
+  }
   const json = await res.json()
   if (json.errors && Object.keys(json.errors).length > 0) {
-    console.error('API-Football returned errors:', JSON.stringify(json.errors))
+    console.error(`API-Football errors for league ${params.league}:`, JSON.stringify(json.errors))
   }
   return json.response ?? []
-}
-
-function isoDate(d) {
-  return d.toISOString().slice(0, 10)
 }
 
 function mapFixture(raw) {
@@ -72,19 +80,26 @@ function mapStatus(short) {
 async function main() {
   await mkdir(OUT_DIR, { recursive: true })
 
-  const today = new Date()
-  const past = new Date(today); past.setDate(past.getDate() - DAYS_BACK)
-  const future = new Date(today); future.setDate(future.getDate() + DAYS_FORWARD)
+  const now = Date.now()
+  const windowStart = now - DAYS_BACK * 86400000
+  const windowEnd = now + DAYS_FORWARD * 86400000
 
-  // All countries/competitions including friendlies, per the app's data plan.
-  const [pastRaw, futureRaw] = await Promise.all([
-    apiGet('/fixtures', { from: isoDate(past), to: isoDate(today) }),
-    apiGet('/fixtures', { from: isoDate(today), to: isoDate(future) })
-  ])
+  const allFixtureMap = new Map()
 
-  const finished = pastRaw.map(mapFixture).filter((f) => f.status === 'FT')
+  for (const leagueId of LEAGUES) {
+    const rows = await apiGet('/fixtures', { league: leagueId, season: SEASON })
+    for (const raw of rows) {
+      const mapped = mapFixture(raw)
+      const t = new Date(mapped.date).getTime()
+      if (t < windowStart || t > windowEnd) continue
+      allFixtureMap.set(mapped.id, mapped)
+    }
+  }
+
+  const all = [...allFixtureMap.values()]
+  const finished = all.filter((f) => f.status === 'FT')
     .sort((a, b) => new Date(b.date) - new Date(a.date))
-  const upcoming = futureRaw.map(mapFixture).filter((f) => f.status === 'NS')
+  const upcoming = all.filter((f) => f.status === 'NS')
     .sort((a, b) => new Date(a.date) - new Date(b.date))
 
   const meta = {
