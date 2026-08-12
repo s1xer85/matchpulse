@@ -1,99 +1,116 @@
 #!/usr/bin/env node
-// Pulls fixtures from API-Football (api-sports.io) and writes static JSON
-// into public/data/. Runs inside GitHub Actions on a schedule — the API
-// key stays a repo secret and is never shipped to the browser.
+// Pulls fixtures from football-data.org and writes static JSON into
+// public/data/. Runs inside GitHub Actions on a schedule — the token
+// stays a repo secret and is never shipped to the browser.
 //
-// Env: API_FOOTBALL_KEY (required)
+// Env: FOOTBALL_DATA_ORG_TOKEN (required)
 //
-// IMPORTANT: the free plan does not reliably return results for a bare
-// from/to date range across all competitions. Fixtures must be requested
-// per league + season instead (same pattern as fetch-teams.mjs), then
-// filtered locally to the date window we care about.
+// Free tier covers 12 major competitions and the CURRENT season (unlike
+// API-Football's free tier, which is locked to old test seasons). Rate
+// limit is 10 requests/minute, so calls are spaced out below.
 
 import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 
-const API_KEY = process.env.API_FOOTBALL_KEY
-const API_BASE = 'https://v3.football.api-sports.io'
+const TOKEN = process.env.FOOTBALL_DATA_ORG_TOKEN
+const API_BASE = 'https://api.football-data.org/v4'
 const OUT_DIR = path.resolve('public/data')
-const SEASON = 2026
 
 const DAYS_BACK = 10
 const DAYS_FORWARD = 45
 
-// Same curated league list as fetch-teams.mjs, kept in sync so the
-// fixtures shown match the clubs available to follow.
-const LEAGUES = [
-  39, 140, 135, 78, 61, 94, 88, 203, 71, 128,
-  262, 253, 307, 98, 292, 239, 2, 3, 848, 1
+// The 12 competitions available on the football-data.org free tier.
+const COMPETITIONS = [
+  'PL',  // Premier League (England)
+  'PD',  // La Liga (Spain)
+  'BL1', // Bundesliga (Germany)
+  'SA',  // Serie A (Italy)
+  'FL1', // Ligue 1 (France)
+  'DED', // Eredivisie (Netherlands)
+  'PPL', // Primeira Liga (Portugal)
+  'ELC', // Championship (England)
+  'BSA', // Brasileirão Série A (Brazil)
+  'CL',  // UEFA Champions League
+  'EC',  // European Championship
+  'WC'   // World Cup
 ]
 
-if (!API_KEY) {
-  console.error('Missing API_FOOTBALL_KEY environment variable.')
+if (!TOKEN) {
+  console.error('Missing FOOTBALL_DATA_ORG_TOKEN environment variable.')
   process.exit(1)
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+function isoDate(d) {
+  return d.toISOString().slice(0, 10)
 }
 
 async function apiGet(endpoint, params) {
   const url = new URL(`${API_BASE}${endpoint}`)
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v)
-  const res = await fetch(url, { headers: { 'x-apisports-key': API_KEY } })
+  const res = await fetch(url, { headers: { 'X-Auth-Token': TOKEN } })
   if (!res.ok) {
-    console.error(`API-Football ${endpoint} (league ${params.league}) failed: ${res.status}`)
+    const body = await res.text()
+    console.error(`football-data.org ${endpoint} failed: ${res.status} — ${body}`)
     return []
   }
   const json = await res.json()
-  if (json.errors && Object.keys(json.errors).length > 0) {
-    console.error(`API-Football errors for league ${params.league}:`, JSON.stringify(json.errors))
-  }
-  return json.response ?? []
+  return json.matches ?? []
+}
+
+function mapStatus(status) {
+  if (status === 'IN_PLAY') return 'LIVE'
+  if (status === 'PAUSED') return 'HT'
+  if (status === 'FINISHED' || status === 'AWARDED') return 'FT'
+  if (status === 'POSTPONED' || status === 'SUSPENDED') return 'PST'
+  if (status === 'CANCELLED') return 'CANC'
+  return 'NS' // SCHEDULED, TIMED
 }
 
 function mapFixture(raw) {
   return {
-    id: raw.fixture.id,
-    date: raw.fixture.date,
-    status: mapStatus(raw.fixture.status.short),
-    minute: raw.fixture.status.elapsed ?? undefined,
-    venue: raw.fixture.venue?.name ?? undefined,
+    id: raw.id,
+    date: raw.utcDate,
+    status: mapStatus(raw.status),
+    minute: raw.minute ?? undefined,
+    venue: raw.venue ?? undefined,
     competition: {
-      id: raw.league.id,
-      name: raw.league.name,
-      logo: raw.league.logo,
-      country: raw.league.country
+      id: raw.competition.id,
+      name: raw.competition.name,
+      logo: raw.competition.emblem,
+      country: raw.area?.name ?? raw.competition.name
     },
-    home: { id: raw.teams.home.id, name: raw.teams.home.name, logo: raw.teams.home.logo },
-    away: { id: raw.teams.away.id, name: raw.teams.away.name, logo: raw.teams.away.logo },
-    homeGoals: raw.goals.home,
-    awayGoals: raw.goals.away
+    home: { id: raw.homeTeam.id, name: raw.homeTeam.name, logo: raw.homeTeam.crest },
+    away: { id: raw.awayTeam.id, name: raw.awayTeam.name, logo: raw.awayTeam.crest },
+    homeGoals: raw.score?.fullTime?.home ?? null,
+    awayGoals: raw.score?.fullTime?.away ?? null
   }
-}
-
-function mapStatus(short) {
-  if (['1H', '2H', 'ET', 'P', 'LIVE'].includes(short)) return 'LIVE'
-  if (short === 'HT') return 'HT'
-  if (short === 'FT' || short === 'AET' || short === 'PEN') return 'FT'
-  if (short === 'PST') return 'PST'
-  if (['CANC', 'ABD', 'AWD', 'WO'].includes(short)) return 'CANC'
-  return 'NS'
 }
 
 async function main() {
   await mkdir(OUT_DIR, { recursive: true })
 
-  const now = Date.now()
-  const windowStart = now - DAYS_BACK * 86400000
-  const windowEnd = now + DAYS_FORWARD * 86400000
+  const today = new Date()
+  const from = new Date(today); from.setDate(from.getDate() - DAYS_BACK)
+  const to = new Date(today); to.setDate(to.getDate() + DAYS_FORWARD)
 
   const allFixtureMap = new Map()
 
-  for (const leagueId of LEAGUES) {
-    const rows = await apiGet('/fixtures', { league: leagueId, season: SEASON })
+  for (let i = 0; i < COMPETITIONS.length; i++) {
+    const code = COMPETITIONS[i]
+    const rows = await apiGet(`/competitions/${code}/matches`, {
+      dateFrom: isoDate(from),
+      dateTo: isoDate(to)
+    })
     for (const raw of rows) {
       const mapped = mapFixture(raw)
-      const t = new Date(mapped.date).getTime()
-      if (t < windowStart || t > windowEnd) continue
       allFixtureMap.set(mapped.id, mapped)
     }
+    // Stay comfortably under the 10 requests/minute free-tier limit.
+    if (i < COMPETITIONS.length - 1) await sleep(6500)
   }
 
   const all = [...allFixtureMap.values()]
@@ -104,7 +121,7 @@ async function main() {
 
   const meta = {
     generatedAt: new Date().toISOString(),
-    source: 'api-football.com',
+    source: 'football-data.org',
     fixtureCount: finished.length + upcoming.length,
     windowDaysBack: DAYS_BACK,
     windowDaysForward: DAYS_FORWARD
