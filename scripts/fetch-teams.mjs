@@ -1,82 +1,55 @@
 #!/usr/bin/env node
-// Builds a searchable club/country directory independent of the fixtures
-// window, so users can follow any team even if it doesn't have a match
-// in the next 45 days. Runs once a day (separate from the 4x/day fixtures
-// refresh) to stay well within the free-tier 100 requests/day cap.
-//
-// Env: API_FOOTBALL_KEY (required)
+// Builds a searchable club/country directory from football-data.org.
+// Env: FOOTBALL_DATA_ORG_TOKEN (required)
 
 import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 
-const API_KEY = process.env.API_FOOTBALL_KEY
-const API_BASE = 'https://v3.football.api-sports.io'
+const TOKEN = process.env.FOOTBALL_DATA_ORG_TOKEN
+const API_BASE = 'https://api.football-data.org/v4'
 const OUT_DIR = path.resolve('public/data')
-const SEASON = 2026
 
-// Curated set of major leagues/competitions + national teams (World Cup).
-// One API request per entry (~20 requests/day total for this script).
-const LEAGUES = [
-  { id: 39, name: 'Premier League' },
-  { id: 140, name: 'La Liga' },
-  { id: 135, name: 'Serie A' },
-  { id: 78, name: 'Bundesliga' },
-  { id: 61, name: 'Ligue 1' },
-  { id: 94, name: 'Primeira Liga' },
-  { id: 88, name: 'Eredivisie' },
-  { id: 203, name: 'Süper Lig' },
-  { id: 71, name: 'Brasileirão Série A' },
-  { id: 128, name: 'Liga Profesional Argentina' },
-  { id: 262, name: 'Liga MX' },
-  { id: 253, name: 'Major League Soccer' },
-  { id: 307, name: 'Saudi Pro League' },
-  { id: 98, name: 'J1 League' },
-  { id: 292, name: 'K League 1' },
-  { id: 239, name: 'Categoría Primera A' },
-  { id: 2, name: 'UEFA Champions League' },
-  { id: 3, name: 'UEFA Europa League' },
-  { id: 848, name: 'UEFA Europa Conference League' },
-  { id: 1, name: 'World Cup' }
-]
+const COMPETITIONS = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'ELC', 'BSA', 'CL', 'EC', 'WC']
 
-if (!API_KEY) {
-  console.error('Missing API_FOOTBALL_KEY environment variable.')
+if (!TOKEN) {
+  console.error('Missing FOOTBALL_DATA_ORG_TOKEN environment variable.')
   process.exit(1)
 }
 
-async function apiGet(endpoint, params) {
-  const url = new URL(`${API_BASE}${endpoint}`)
-  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v)
-  const res = await fetch(url, { headers: { 'x-apisports-key': API_KEY } })
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+async function apiGet(endpoint) {
+  const res = await fetch(`${API_BASE}${endpoint}`, { headers: { 'X-Auth-Token': TOKEN } })
   if (!res.ok) {
-    console.error(`API-Football ${endpoint} (league ${params.league}) failed: ${res.status}`)
+    const body = await res.text()
+    console.error(`football-data.org ${endpoint} failed: ${res.status} — ${body}`)
     return []
   }
   const json = await res.json()
-  if (json.errors && Object.keys(json.errors).length > 0) {
-    console.error(`API-Football errors for league ${params.league}:`, JSON.stringify(json.errors))
-  }
-  return json.response ?? []
+  return json.teams ?? []
 }
 
 async function main() {
   await mkdir(OUT_DIR, { recursive: true })
 
-  const teamMap = new Map() // dedupe by team id across competitions
+  const teamMap = new Map()
 
-  for (const league of LEAGUES) {
-    const rows = await apiGet('/teams', { league: league.id, season: SEASON })
-    for (const row of rows) {
-      const t = row.team
+  for (let i = 0; i < COMPETITIONS.length; i++) {
+    const code = COMPETITIONS[i]
+    const rows = await apiGet(`/competitions/${code}/teams`)
+    for (const t of rows) {
       if (!t?.id || teamMap.has(t.id)) continue
       teamMap.set(t.id, {
         id: t.id,
         name: t.name,
-        logo: t.logo,
-        country: t.country ?? league.name,
-        isNational: t.national === true
+        logo: t.crest,
+        country: t.area?.name ?? code,
+        isNational: t.name === t.area?.name
       })
     }
+    if (i < COMPETITIONS.length - 1) await sleep(6500)
   }
 
   const teams = [...teamMap.values()].sort((a, b) => a.name.localeCompare(b.name))
