@@ -29,7 +29,13 @@ export default function Home() {
         setUpcoming(u)
         setFinished(f)
         setFavorites(favs)
-        syncReminders(u, prefs)
+
+        // IMPORTANT: only schedule reminders for matches involving a
+        // followed team, at the offsets set on the Notifications page —
+        // not for every match in the data.
+        const favIds = new Set(favs.map((fv) => fv.teamId))
+        const followed = u.filter((m) => favIds.has(m.home.id) || favIds.has(m.away.id))
+        syncReminders(followed, prefs)
       } catch (e) {
         setError('Could not load match data. Check your connection and try again.')
       } finally {
@@ -70,9 +76,21 @@ export default function Home() {
       {favorites.length === 0 && (
         <div className="rounded-2xl border border-dashed border-white/10 px-4 py-5 text-center">
           <p className="text-sm text-white/60">
-            You're not following any teams yet. Head to Favorites to follow a club or national team.
+            You're not following any teams yet. Head to Favorites to follow a club or national team
+            and get reminders before their matches.
           </p>
         </div>
+      )}
+
+      {followedUpcoming.length > 0 && (
+        <section>
+          <h2 className="font-display text-sm font-semibold text-white/90 mb-3">
+            Your teams — upcoming
+          </h2>
+          <div className="space-y-2.5">
+            {followedUpcoming.slice(0, 5).map((f) => <MatchCard key={f.id} fixture={f} />)}
+          </div>
+        </section>
       )}
 
       <section>
@@ -101,4 +119,4 @@ export default function Home() {
       </section>
     </div>
   )
-}
+          }
