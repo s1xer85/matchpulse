@@ -4,6 +4,7 @@ export interface Team {
   id: number
   name: string
   logo: string
+  country?: string
   isNational?: boolean
 }
 
@@ -53,4 +54,4 @@ export interface DataMeta {
   generatedAt: string
   source: string
   fixtureCount: number
-}
+  }
