@@ -2,7 +2,6 @@ name: Refresh match data
 
 on:
   schedule:
-    # twice a day — this now costs ~20 requests per run (one per league)
     - cron: '0 6,18 * * *'
   workflow_dispatch: {}
 
@@ -14,16 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Fetch fixtures from API-Football
+      - name: Fetch fixtures from football-data.org
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_ORG_TOKEN: ${{ secrets.FOOTBALL_DATA_ORG_TOKEN }}
         run: node scripts/fetch-data.mjs
-
       - name: Commit updated data
         run: |
           git config user.name "matchpulse-bot"
