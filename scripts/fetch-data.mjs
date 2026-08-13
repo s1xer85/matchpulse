@@ -19,20 +19,8 @@ const OUT_DIR = path.resolve('public/data')
 const DAYS_BACK = 10
 const DAYS_FORWARD = 45
 
-// The 12 competitions available on the football-data.org free tier.
 const COMPETITIONS = [
-  'PL',  // Premier League (England)
-  'PD',  // La Liga (Spain)
-  'BL1', // Bundesliga (Germany)
-  'SA',  // Serie A (Italy)
-  'FL1', // Ligue 1 (France)
-  'DED', // Eredivisie (Netherlands)
-  'PPL', // Primeira Liga (Portugal)
-  'ELC', // Championship (England)
-  'BSA', // Brasileirão Série A (Brazil)
-  'CL',  // UEFA Champions League
-  'EC',  // European Championship
-  'WC'   // World Cup
+  'PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'ELC', 'BSA', 'CL', 'EC', 'WC'
 ]
 
 if (!TOKEN) {
@@ -67,7 +55,7 @@ function mapStatus(status) {
   if (status === 'FINISHED' || status === 'AWARDED') return 'FT'
   if (status === 'POSTPONED' || status === 'SUSPENDED') return 'PST'
   if (status === 'CANCELLED') return 'CANC'
-  return 'NS' // SCHEDULED, TIMED
+  return 'NS'
 }
 
 function mapFixture(raw) {
@@ -109,7 +97,6 @@ async function main() {
       const mapped = mapFixture(raw)
       allFixtureMap.set(mapped.id, mapped)
     }
-    // Stay comfortably under the 10 requests/minute free-tier limit.
     if (i < COMPETITIONS.length - 1) await sleep(6500)
   }
 
