@@ -1,28 +1,5 @@
 [
   {
-    "id": 558223,
-    "date": "2026-08-14T18:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 1912,
-      "name": "Telstar 1963",
-      "logo": "https://crests.football-data.org/1912.png"
-    },
-    "away": {
-      "id": 6806,
-      "name": "Sparta Rotterdam",
-      "logo": "https://crests.football-data.org/6806.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 561761,
     "date": "2026-08-14T19:00:00Z",
     "status": "NS",
