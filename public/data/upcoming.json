@@ -8188,6 +8188,29 @@
     "awayGoals": null
   },
   {
+    "id": 558892,
+    "date": "2026-09-13T12:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 1909,
+      "name": "SC Cambuur-Leeuwarden",
+      "logo": "https://crests.football-data.org/1909.png"
+    },
+    "away": {
+      "id": 1915,
+      "name": "NEC",
+      "logo": "https://crests.football-data.org/1915.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558893,
     "date": "2026-09-13T12:30:00Z",
     "status": "NS",
@@ -8459,29 +8482,6 @@
       "id": 524,
       "name": "Paris Saint-Germain FC",
       "logo": "https://crests.football-data.org/524.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 558892,
-    "date": "2026-09-14T12:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 1909,
-      "name": "SC Cambuur-Leeuwarden",
-      "logo": "https://crests.football-data.org/1909.png"
-    },
-    "away": {
-      "id": 1915,
-      "name": "NEC",
-      "logo": "https://crests.football-data.org/1915.png"
     },
     "homeGoals": null,
     "awayGoals": null
