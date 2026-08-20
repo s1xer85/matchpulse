@@ -1,28 +1,5 @@
 [
   {
-    "id": 564628,
-    "date": "2026-08-19T19:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 78,
-      "name": "Club Atlético de Madrid",
-      "logo": "https://crests.football-data.org/78.png"
-    },
-    "away": {
-      "id": 84,
-      "name": "Málaga CF",
-      "logo": "https://crests.football-data.org/84.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 564638,
     "date": "2026-08-20T19:00:00Z",
     "status": "NS",
@@ -7590,29 +7567,6 @@
     "awayGoals": null
   },
   {
-    "id": 558600,
-    "date": "2026-09-12T16:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "logo": "https://crests.football-data.org/c111.png",
-      "country": "Italy"
-    },
-    "home": {
-      "id": 110,
-      "name": "SS Lazio",
-      "logo": "https://crests.football-data.org/110.png"
-    },
-    "away": {
-      "id": 98,
-      "name": "AC Milan",
-      "logo": "https://crests.football-data.org/98.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 558608,
     "date": "2026-09-12T16:00:00Z",
     "status": "NS",
@@ -8459,6 +8413,29 @@
       "id": 103,
       "name": "Bologna FC 1909",
       "logo": "https://crests.football-data.org/103.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558600,
+    "date": "2026-09-13T18:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 110,
+      "name": "SS Lazio",
+      "logo": "https://crests.football-data.org/110.png"
+    },
+    "away": {
+      "id": 98,
+      "name": "AC Milan",
+      "logo": "https://crests.football-data.org/98.png"
     },
     "homeGoals": null,
     "awayGoals": null
