@@ -1,28 +1,5 @@
 [
   {
-    "id": 564631,
-    "date": "2026-08-26T19:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 86,
-      "name": "Real Madrid CF",
-      "logo": "https://crests.football-data.org/86.png"
-    },
-    "away": {
-      "id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "logo": "https://crests.football-data.org/92.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 564636,
     "date": "2026-08-27T18:30:00Z",
     "status": "NS",
@@ -4439,6 +4416,29 @@
     "awayGoals": null
   },
   {
+    "id": 558233,
+    "date": "2026-09-08T16:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 1915,
+      "name": "NEC",
+      "logo": "https://crests.football-data.org/1915.png"
+    },
+    "away": {
+      "id": 670,
+      "name": "SBV Excelsior",
+      "logo": "https://crests.football-data.org/670.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 561821,
     "date": "2026-09-08T18:45:00Z",
     "status": "NS",
@@ -6118,7 +6118,7 @@
     "awayGoals": null
   },
   {
-    "id": 558895,
+    "id": 558892,
     "date": "2026-09-12T19:00:00Z",
     "status": "NS",
     "competition": {
@@ -6128,14 +6128,14 @@
       "country": "Netherlands"
     },
     "home": {
-      "id": 673,
-      "name": "SC Heerenveen",
-      "logo": "https://crests.football-data.org/673.png"
+      "id": 1909,
+      "name": "SC Cambuur-Leeuwarden",
+      "logo": "https://crests.football-data.org/1909.png"
     },
     "away": {
-      "id": 1912,
-      "name": "Telstar 1963",
-      "logo": "https://crests.football-data.org/1912.png"
+      "id": 1915,
+      "name": "NEC",
+      "logo": "https://crests.football-data.org/1915.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -6440,29 +6440,6 @@
     "awayGoals": null
   },
   {
-    "id": 558892,
-    "date": "2026-09-13T12:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 1909,
-      "name": "SC Cambuur-Leeuwarden",
-      "logo": "https://crests.football-data.org/1909.png"
-    },
-    "away": {
-      "id": 1915,
-      "name": "NEC",
-      "logo": "https://crests.football-data.org/1915.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 558893,
     "date": "2026-09-13T12:30:00Z",
     "status": "NS",
@@ -6481,6 +6458,29 @@
       "id": 6806,
       "name": "Sparta Rotterdam",
       "logo": "https://crests.football-data.org/6806.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558895,
+    "date": "2026-09-13T12:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 673,
+      "name": "SC Heerenveen",
+      "logo": "https://crests.football-data.org/673.png"
+    },
+    "away": {
+      "id": 1912,
+      "name": "Telstar 1963",
+      "logo": "https://crests.football-data.org/1912.png"
     },
     "homeGoals": null,
     "awayGoals": null
