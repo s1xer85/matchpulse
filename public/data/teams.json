@@ -623,13 +623,6 @@
     "isNational": false
   },
   {
-    "id": 1876,
-    "name": "FC København",
-    "logo": "https://crests.football-data.org/1876.png",
-    "country": "Denmark",
-    "isNational": false
-  },
-  {
     "id": 525,
     "name": "FC Lorient",
     "logo": "https://crests.football-data.org/525.png",
@@ -665,6 +658,13 @@
     "isNational": false
   },
   {
+    "id": 613,
+    "name": "Fenerbahçe SK",
+    "logo": "https://crests.football-data.org/613.png",
+    "country": "Turkey",
+    "isNational": false
+  },
+  {
     "id": 675,
     "name": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
@@ -679,10 +679,10 @@
     "isNational": false
   },
   {
-    "id": 10601,
-    "name": "FK Kairat",
-    "logo": "https://crests.football-data.org/10601.png",
-    "country": "Kazakhstan",
+    "id": 1887,
+    "name": "FK Shakhtar Donetsk",
+    "logo": "https://crests.football-data.org/1887.png",
+    "country": "Ukraine",
     "isNational": false
   },
   {
@@ -875,6 +875,13 @@
     "isNational": false
   },
   {
+    "id": 2016,
+    "name": "LASK Linz",
+    "logo": "https://crests.football-data.org/2016.png",
+    "country": "Austria",
+    "isNational": false
+  },
+  {
     "id": 533,
     "name": "Le Havre AC",
     "logo": "https://crests.football-data.org/533.png",
@@ -1057,9 +1064,9 @@
     "isNational": false
   },
   {
-    "id": 654,
-    "name": "PAE Olympiakos SFP",
-    "logo": "https://crests.football-data.org/654.png",
+    "id": 1899,
+    "name": "PAE AEK",
+    "logo": "https://crests.football-data.org/1899.png",
     "country": "Greece",
     "isNational": false
   },
@@ -1069,13 +1076,6 @@
     "logo": "https://crests.football-data.org/panama.svg",
     "country": "Panama",
     "isNational": true
-  },
-  {
-    "id": 11034,
-    "name": "Paphos FC",
-    "logo": "https://crests.football-data.org/11034.png",
-    "country": "Cyprus",
-    "isNational": false
   },
   {
     "id": 761,
@@ -1145,13 +1145,6 @@
     "name": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "country": "Netherlands",
-    "isNational": false
-  },
-  {
-    "id": 611,
-    "name": "Qarabağ Ağdam FK",
-    "logo": "https://crests.football-data.org/611.png",
-    "country": "Azerbaijan",
     "isNational": false
   },
   {
@@ -1267,10 +1260,10 @@
     "isNational": true
   },
   {
-    "id": 3929,
-    "name": "Royale Union Saint-Gilloise",
-    "logo": "https://crests.football-data.org/3929.png",
-    "country": "Belgium",
+    "id": 10233,
+    "name": "Sabah FK",
+    "logo": "https://crests.football-data.org/10233.png",
+    "country": "Azerbaijan",
     "isNational": false
   },
   {
@@ -1390,6 +1383,13 @@
     "name": "SK Slavia Praha",
     "logo": "https://crests.football-data.org/930.png",
     "country": "Czech Republic",
+    "isNational": false
+  },
+  {
+    "id": 7509,
+    "name": "ŠK Slovan Bratislava",
+    "logo": "https://crests.football-data.org/7509.png",
+    "country": "Slovakia",
     "isNational": false
   },
   {
@@ -1656,6 +1656,13 @@
     "name": "VfB Stuttgart",
     "logo": "https://crests.football-data.org/10.png",
     "country": "Germany",
+    "isNational": false
+  },
+  {
+    "id": 5720,
+    "name": "Viking FK",
+    "logo": "https://crests.football-data.org/5720.png",
+    "country": "Norway",
     "isNational": false
   },
   {
