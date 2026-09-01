@@ -1,5 +1,143 @@
 [
   {
+    "id": 561798,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 1081,
+      "name": "Preston North End FC",
+      "logo": "https://crests.football-data.org/1081.png"
+    },
+    "away": {
+      "id": 387,
+      "name": "Bristol City FC",
+      "logo": "https://crests.football-data.org/387.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "id": 561799,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 563,
+      "name": "West Ham United FC",
+      "logo": "https://crests.football-data.org/563.png"
+    },
+    "away": {
+      "id": 76,
+      "name": "Wolverhampton Wanderers FC",
+      "logo": "https://crests.football-data.org/76.png"
+    },
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "id": 561800,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 1126,
+      "name": "Lincoln City FC",
+      "logo": "https://crests.football-data.org/1126.png"
+    },
+    "away": {
+      "id": 59,
+      "name": "Blackburn Rovers FC",
+      "logo": "https://crests.football-data.org/59.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "id": 561801,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 356,
+      "name": "Sheffield United FC",
+      "logo": "https://crests.football-data.org/356.png"
+    },
+    "away": {
+      "id": 60,
+      "name": "Bolton Wanderers FC",
+      "logo": "https://crests.football-data.org/60.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "id": 561802,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 325,
+      "name": "Portsmouth FC",
+      "logo": "https://crests.football-data.org/325.png"
+    },
+    "away": {
+      "id": 342,
+      "name": "Derby County FC",
+      "logo": "https://crests.football-data.org/342.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "id": 561804,
+    "date": "2026-09-01T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 72,
+      "name": "Swansea City AFC",
+      "logo": "https://crests.football-data.org/72.png"
+    },
+    "away": {
+      "id": 346,
+      "name": "Watford FC",
+      "logo": "https://crests.football-data.org/346.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
     "id": 554987,
     "date": "2026-08-31T23:00:00Z",
     "status": "FT",
