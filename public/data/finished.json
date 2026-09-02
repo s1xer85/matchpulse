@@ -1,5 +1,74 @@
 [
   {
+    "id": 561806,
+    "date": "2026-09-02T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 384,
+      "name": "Millwall FC",
+      "logo": "https://crests.football-data.org/384.png"
+    },
+    "away": {
+      "id": 404,
+      "name": "Wrexham AFC",
+      "logo": "https://crests.football-data.org/404.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "id": 561807,
+    "date": "2026-09-02T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 69,
+      "name": "Queens Park Rangers FC",
+      "logo": "https://crests.football-data.org/69.png"
+    },
+    "away": {
+      "id": 715,
+      "name": "Cardiff City FC",
+      "logo": "https://crests.football-data.org/715.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "id": 561808,
+    "date": "2026-09-02T18:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 74,
+      "name": "West Bromwich Albion FC",
+      "logo": "https://crests.football-data.org/74.png"
+    },
+    "away": {
+      "id": 348,
+      "name": "Charlton Athletic FC",
+      "logo": "https://crests.football-data.org/348.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
     "id": 561797,
     "date": "2026-09-01T19:00:00Z",
     "status": "FT",
