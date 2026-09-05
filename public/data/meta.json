@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T10:24:59.000Z",
+  "generatedAt": "2026-09-05T20:13:52.120Z",
   "source": "football-data.org",
-  "fixtureCount": 629,
+  "fixtureCount": 620,
   "windowDaysBack": 10,
   "windowDaysForward": 45
 }
