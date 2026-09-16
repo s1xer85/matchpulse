@@ -1,97 +1,5 @@
 [
   {
-    "id": 564679,
-    "date": "2026-09-16T17:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 560,
-      "name": "RC Deportivo La Coruña",
-      "logo": "https://crests.football-data.org/560.png"
-    },
-    "away": {
-      "id": 559,
-      "name": "Sevilla FC",
-      "logo": "https://crests.football-data.org/559.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564684,
-    "date": "2026-09-16T17:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 78,
-      "name": "Club Atlético de Madrid",
-      "logo": "https://crests.football-data.org/78.png"
-    },
-    "away": {
-      "id": 79,
-      "name": "CA Osasuna",
-      "logo": "https://crests.football-data.org/79.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564685,
-    "date": "2026-09-16T19:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 88,
-      "name": "Levante UD",
-      "logo": "https://crests.football-data.org/88.png"
-    },
-    "away": {
-      "id": 77,
-      "name": "Athletic Club",
-      "logo": "https://crests.football-data.org/77.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564687,
-    "date": "2026-09-16T19:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 81,
-      "name": "FC Barcelona",
-      "logo": "https://crests.football-data.org/81.png"
-    },
-    "away": {
-      "id": 5335,
-      "name": "Real Racing Club de Santander",
-      "logo": "https://crests.football-data.org/5335.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 554941,
     "date": "2026-09-16T22:30:00Z",
     "status": "NS",
@@ -5221,6 +5129,29 @@
     "awayGoals": null
   },
   {
+    "id": 564716,
+    "date": "2026-10-16T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 560,
+      "name": "RC Deportivo La Coruña",
+      "logo": "https://crests.football-data.org/560.png"
+    },
+    "away": {
+      "id": 88,
+      "name": "Levante UD",
+      "logo": "https://crests.football-data.org/88.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 561883,
     "date": "2026-10-16T19:00:00Z",
     "status": "NS",
@@ -5561,6 +5492,29 @@
       "id": 348,
       "name": "Charlton Athletic FC",
       "logo": "https://crests.football-data.org/348.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 564710,
+    "date": "2026-10-17T12:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "logo": "https://crests.football-data.org/80.png"
+    },
+    "away": {
+      "id": 78,
+      "name": "Club Atlético de Madrid",
+      "logo": "https://crests.football-data.org/78.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -5957,6 +5911,29 @@
     "awayGoals": null
   },
   {
+    "id": 564708,
+    "date": "2026-10-17T14:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 94,
+      "name": "Villarreal CF",
+      "logo": "https://crests.football-data.org/94.png"
+    },
+    "away": {
+      "id": 285,
+      "name": "Elche CF",
+      "logo": "https://crests.football-data.org/285.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558871,
     "date": "2026-10-17T14:30:00Z",
     "status": "NS",
@@ -6044,6 +6021,29 @@
       "id": 58,
       "name": "Aston Villa FC",
       "logo": "https://crests.football-data.org/58.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 564713,
+    "date": "2026-10-17T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 90,
+      "name": "Real Betis Balompié",
+      "logo": "https://crests.football-data.org/90.png"
+    },
+    "away": {
+      "id": 81,
+      "name": "FC Barcelona",
+      "logo": "https://crests.football-data.org/81.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -6164,100 +6164,8 @@
     "awayGoals": null
   },
   {
-    "id": 558868,
-    "date": "2026-10-17T19:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 6806,
-      "name": "Sparta Rotterdam",
-      "logo": "https://crests.football-data.org/6806.png"
-    },
-    "away": {
-      "id": 672,
-      "name": "Willem II Tilburg",
-      "logo": "https://crests.football-data.org/672.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564708,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 94,
-      "name": "Villarreal CF",
-      "logo": "https://crests.football-data.org/94.png"
-    },
-    "away": {
-      "id": 285,
-      "name": "Elche CF",
-      "logo": "https://crests.football-data.org/285.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564709,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 86,
-      "name": "Real Madrid CF",
-      "logo": "https://crests.football-data.org/86.png"
-    },
-    "away": {
-      "id": 559,
-      "name": "Sevilla FC",
-      "logo": "https://crests.football-data.org/559.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564710,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "logo": "https://crests.football-data.org/80.png"
-    },
-    "away": {
-      "id": 78,
-      "name": "Club Atlético de Madrid",
-      "logo": "https://crests.football-data.org/78.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 564711,
-    "date": "2026-10-18T00:00:00Z",
+    "date": "2026-10-17T19:00:00Z",
     "status": "NS",
     "competition": {
       "id": 2014,
@@ -6279,139 +6187,24 @@
     "awayGoals": null
   },
   {
-    "id": 564712,
-    "date": "2026-10-18T00:00:00Z",
+    "id": 558868,
+    "date": "2026-10-17T19:00:00Z",
     "status": "NS",
     "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
     },
     "home": {
-      "id": 558,
-      "name": "RC Celta de Vigo",
-      "logo": "https://crests.football-data.org/558.png"
+      "id": 6806,
+      "name": "Sparta Rotterdam",
+      "logo": "https://crests.football-data.org/6806.png"
     },
     "away": {
-      "id": 263,
-      "name": "Deportivo Alavés",
-      "logo": "https://crests.football-data.org/263.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564713,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 90,
-      "name": "Real Betis Balompié",
-      "logo": "https://crests.football-data.org/90.png"
-    },
-    "away": {
-      "id": 81,
-      "name": "FC Barcelona",
-      "logo": "https://crests.football-data.org/81.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564714,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 84,
-      "name": "Málaga CF",
-      "logo": "https://crests.football-data.org/84.png"
-    },
-    "away": {
-      "id": 92,
-      "name": "Real Sociedad de Fútbol",
-      "logo": "https://crests.football-data.org/92.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564715,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 79,
-      "name": "CA Osasuna",
-      "logo": "https://crests.football-data.org/79.png"
-    },
-    "away": {
-      "id": 5335,
-      "name": "Real Racing Club de Santander",
-      "logo": "https://crests.football-data.org/5335.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564716,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 560,
-      "name": "RC Deportivo La Coruña",
-      "logo": "https://crests.football-data.org/560.png"
-    },
-    "away": {
-      "id": 88,
-      "name": "Levante UD",
-      "logo": "https://crests.football-data.org/88.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 564717,
-    "date": "2026-10-18T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 82,
-      "name": "Getafe CF",
-      "logo": "https://crests.football-data.org/82.png"
-    },
-    "away": {
-      "id": 87,
-      "name": "Rayo Vallecano de Madrid",
-      "logo": "https://crests.football-data.org/87.png"
+      "id": 672,
+      "name": "Willem II Tilburg",
+      "logo": "https://crests.football-data.org/672.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -6458,6 +6251,29 @@
       "id": 5890,
       "name": "US Lecce",
       "logo": "https://crests.football-data.org/5890.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 564715,
+    "date": "2026-10-18T12:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 79,
+      "name": "CA Osasuna",
+      "logo": "https://crests.football-data.org/79.png"
+    },
+    "away": {
+      "id": 5335,
+      "name": "Real Racing Club de Santander",
+      "logo": "https://crests.football-data.org/5335.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -6624,6 +6440,29 @@
     "awayGoals": null
   },
   {
+    "id": 564712,
+    "date": "2026-10-18T14:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 558,
+      "name": "RC Celta de Vigo",
+      "logo": "https://crests.football-data.org/558.png"
+    },
+    "away": {
+      "id": 263,
+      "name": "Deportivo Alavés",
+      "logo": "https://crests.football-data.org/263.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558864,
     "date": "2026-10-18T14:45:00Z",
     "status": "NS",
@@ -6785,6 +6624,29 @@
     "awayGoals": null
   },
   {
+    "id": 564714,
+    "date": "2026-10-18T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 84,
+      "name": "Málaga CF",
+      "logo": "https://crests.football-data.org/84.png"
+    },
+    "away": {
+      "id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "logo": "https://crests.football-data.org/92.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558866,
     "date": "2026-10-18T18:00:00Z",
     "status": "NS",
@@ -6877,6 +6739,29 @@
     "awayGoals": null
   },
   {
+    "id": 564709,
+    "date": "2026-10-18T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 86,
+      "name": "Real Madrid CF",
+      "logo": "https://crests.football-data.org/86.png"
+    },
+    "away": {
+      "id": 559,
+      "name": "Sevilla FC",
+      "logo": "https://crests.football-data.org/559.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558576,
     "date": "2026-10-19T16:30:00Z",
     "status": "NS",
@@ -6941,6 +6826,29 @@
       "id": 1076,
       "name": "Coventry City FC",
       "logo": "https://crests.football-data.org/1076.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 564717,
+    "date": "2026-10-19T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 82,
+      "name": "Getafe CF",
+      "logo": "https://crests.football-data.org/82.png"
+    },
+    "away": {
+      "id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "logo": "https://crests.football-data.org/87.png"
     },
     "homeGoals": null,
     "awayGoals": null
