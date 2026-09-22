@@ -1282,7 +1282,7 @@
     "away": {
       "id": 535,
       "name": "Le Mans FC",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+      "logo": "https://crests.football-data.org/535.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -3071,7 +3071,7 @@
     "home": {
       "id": 535,
       "name": "Le Mans FC",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+      "logo": "https://crests.football-data.org/535.png"
     },
     "away": {
       "id": 511,
@@ -7055,7 +7055,7 @@
     "away": {
       "id": 535,
       "name": "Le Mans FC",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+      "logo": "https://crests.football-data.org/535.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -8665,7 +8665,7 @@
     "away": {
       "id": 535,
       "name": "Le Mans FC",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+      "logo": "https://crests.football-data.org/535.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -10460,6 +10460,144 @@
       "id": 10233,
       "name": "Sabah FK",
       "logo": "https://crests.football-data.org/10233.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558845,
+    "date": "2026-11-06T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 672,
+      "name": "Willem II Tilburg",
+      "logo": "https://crests.football-data.org/672.png"
+    },
+    "away": {
+      "id": 684,
+      "name": "PEC Zwolle",
+      "logo": "https://crests.football-data.org/684.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565852,
+    "date": "2026-11-06T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 7,
+      "name": "Hamburger SV",
+      "logo": "https://crests.football-data.org/7.png"
+    },
+    "away": {
+      "id": 18,
+      "name": "Borussia Mönchengladbach",
+      "logo": "https://crests.football-data.org/18.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558537,
+    "date": "2026-11-06T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 454,
+      "name": "Venezia FC",
+      "logo": "https://crests.football-data.org/454.png"
+    },
+    "away": {
+      "id": 115,
+      "name": "Udinese Calcio",
+      "logo": "https://crests.football-data.org/115.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 559638,
+    "date": "2026-11-06T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "logo": "https://crests.football-data.org/FL1.png",
+      "country": "France"
+    },
+    "home": {
+      "id": 511,
+      "name": "Toulouse FC",
+      "logo": "https://crests.football-data.org/511.png"
+    },
+    "away": {
+      "id": 576,
+      "name": "RC Strasbourg Alsace",
+      "logo": "https://crests.football-data.org/576.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 561932,
+    "date": "2026-11-06T20:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 342,
+      "name": "Derby County FC",
+      "logo": "https://crests.football-data.org/342.png"
+    },
+    "away": {
+      "id": 60,
+      "name": "Bolton Wanderers FC",
+      "logo": "https://crests.football-data.org/60.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567353,
+    "date": "2026-11-06T20:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5531,
+      "name": "FC Famalicão",
+      "logo": "https://crests.football-data.org/5531.png"
+    },
+    "away": {
+      "id": 712,
+      "name": "FC Arouca",
+      "logo": "https://crests.football-data.org/712.png"
     },
     "homeGoals": null,
     "awayGoals": null
