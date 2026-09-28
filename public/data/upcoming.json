@@ -3128,6 +3128,29 @@
     "awayGoals": null
   },
   {
+    "id": 555047,
+    "date": "2026-10-16T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4364,
+      "name": "Mirassol FC",
+      "logo": "https://crests.football-data.org/4364.png"
+    },
+    "away": {
+      "id": 6684,
+      "name": "SC Internacional",
+      "logo": "https://crests.football-data.org/6684.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 555042,
     "date": "2026-10-17T00:00:00Z",
     "status": "NS",
@@ -3215,29 +3238,6 @@
       "id": 1771,
       "name": "Cruzeiro EC",
       "logo": "https://crests.football-data.org/1771.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555047,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "away": {
-      "id": 6684,
-      "name": "SC Internacional",
-      "logo": "https://crests.football-data.org/6684.png"
     },
     "homeGoals": null,
     "awayGoals": null
