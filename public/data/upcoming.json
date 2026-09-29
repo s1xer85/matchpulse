@@ -3151,121 +3151,6 @@
     "awayGoals": null
   },
   {
-    "id": 555042,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "away": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555044,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "away": {
-      "id": 1782,
-      "name": "EC Vitória",
-      "logo": "https://crests.football-data.org/1782.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555045,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1765,
-      "name": "Fluminense FC",
-      "logo": "https://crests.football-data.org/1765.png"
-    },
-    "away": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555046,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "away": {
-      "id": 1771,
-      "name": "Cruzeiro EC",
-      "logo": "https://crests.football-data.org/1771.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555048,
-    "date": "2026-10-17T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4287,
-      "name": "Clube do Remo",
-      "logo": "https://crests.football-data.org/4287.png"
-    },
-    "away": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 560603,
     "date": "2026-10-17T11:30:00Z",
     "status": "NS",
@@ -4715,6 +4600,98 @@
     "awayGoals": null
   },
   {
+    "id": 555045,
+    "date": "2026-10-18T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1765,
+      "name": "Fluminense FC",
+      "logo": "https://crests.football-data.org/1765.png"
+    },
+    "away": {
+      "id": 6685,
+      "name": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555046,
+    "date": "2026-10-18T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1767,
+      "name": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png"
+    },
+    "away": {
+      "id": 1771,
+      "name": "Cruzeiro EC",
+      "logo": "https://crests.football-data.org/1771.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555042,
+    "date": "2026-10-18T21:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1777,
+      "name": "EC Bahia",
+      "logo": "https://crests.football-data.org/1777.png"
+    },
+    "away": {
+      "id": 1783,
+      "name": "CR Flamengo",
+      "logo": "https://crests.football-data.org/1783.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555048,
+    "date": "2026-10-18T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4287,
+      "name": "Clube do Remo",
+      "logo": "https://crests.football-data.org/4287.png"
+    },
+    "away": {
+      "id": 4286,
+      "name": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558576,
     "date": "2026-10-19T16:30:00Z",
     "status": "NS",
@@ -4802,6 +4779,29 @@
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
       "logo": "https://crests.football-data.org/87.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555044,
+    "date": "2026-10-19T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1779,
+      "name": "SC Corinthians Paulista",
+      "logo": "https://crests.football-data.org/1779.png"
+    },
+    "away": {
+      "id": 1782,
+      "name": "EC Vitória",
+      "logo": "https://crests.football-data.org/1782.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -5469,213 +5469,6 @@
       "id": 4287,
       "name": "Clube do Remo",
       "logo": "https://crests.football-data.org/4287.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555050,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1772,
-      "name": "Chapecoense AF",
-      "logo": "https://crests.football-data.org/1772_large.png"
-    },
-    "away": {
-      "id": 1765,
-      "name": "Fluminense FC",
-      "logo": "https://crests.football-data.org/1765.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555051,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4241,
-      "name": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png"
-    },
-    "away": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555053,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "away": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555054,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 6684,
-      "name": "SC Internacional",
-      "logo": "https://crests.football-data.org/6684.png"
-    },
-    "away": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555055,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "away": {
-      "id": 1776,
-      "name": "São Paulo FC",
-      "logo": "https://crests.football-data.org/1776.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555056,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "logo": "https://crests.football-data.org/1769.png"
-    },
-    "away": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555057,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "away": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555058,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1780,
-      "name": "CR Vasco da Gama",
-      "logo": "https://crests.football-data.org/1780.png"
-    },
-    "away": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555059,
-    "date": "2026-10-24T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1782,
-      "name": "EC Vitória",
-      "logo": "https://crests.football-data.org/1782.png"
-    },
-    "away": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -6532,6 +6325,167 @@
     "awayGoals": null
   },
   {
+    "id": 555054,
+    "date": "2026-10-24T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 6684,
+      "name": "SC Internacional",
+      "logo": "https://crests.football-data.org/6684.png"
+    },
+    "away": {
+      "id": 1770,
+      "name": "Botafogo FR",
+      "logo": "https://crests.football-data.org/1770.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555055,
+    "date": "2026-10-24T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4364,
+      "name": "Mirassol FC",
+      "logo": "https://crests.football-data.org/4364.png"
+    },
+    "away": {
+      "id": 1776,
+      "name": "São Paulo FC",
+      "logo": "https://crests.football-data.org/1776.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555059,
+    "date": "2026-10-24T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1782,
+      "name": "EC Vitória",
+      "logo": "https://crests.football-data.org/1782.png"
+    },
+    "away": {
+      "id": 1768,
+      "name": "CA Paranaense",
+      "logo": "https://crests.football-data.org/1768.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555056,
+    "date": "2026-10-24T21:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1769,
+      "name": "SE Palmeiras",
+      "logo": "https://crests.football-data.org/1769.png"
+    },
+    "away": {
+      "id": 4286,
+      "name": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555058,
+    "date": "2026-10-24T21:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1780,
+      "name": "CR Vasco da Gama",
+      "logo": "https://crests.football-data.org/1780.png"
+    },
+    "away": {
+      "id": 1779,
+      "name": "SC Corinthians Paulista",
+      "logo": "https://crests.football-data.org/1779.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555050,
+    "date": "2026-10-24T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1772,
+      "name": "Chapecoense AF",
+      "logo": "https://crests.football-data.org/1772_large.png"
+    },
+    "away": {
+      "id": 1765,
+      "name": "Fluminense FC",
+      "logo": "https://crests.football-data.org/1765.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555057,
+    "date": "2026-10-24T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 6685,
+      "name": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png"
+    },
+    "away": {
+      "id": 1777,
+      "name": "EC Bahia",
+      "logo": "https://crests.football-data.org/1777.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558859,
     "date": "2026-10-25T11:15:00Z",
     "status": "NS",
@@ -7245,6 +7199,29 @@
     "awayGoals": null
   },
   {
+    "id": 555051,
+    "date": "2026-10-25T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4241,
+      "name": "Coritiba FBC",
+      "logo": "https://crests.football-data.org/4241.png"
+    },
+    "away": {
+      "id": 1767,
+      "name": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 567331,
     "date": "2026-10-26T18:45:00Z",
     "status": "NS",
@@ -7286,6 +7263,29 @@
       "id": 79,
       "name": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555053,
+    "date": "2026-10-26T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1783,
+      "name": "CR Flamengo",
+      "logo": "https://crests.football-data.org/1783.png"
+    },
+    "away": {
+      "id": 1766,
+      "name": "CA Mineiro",
+      "logo": "https://crests.football-data.org/1766.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -7355,236 +7355,6 @@
       "id": 7397,
       "name": "Como 1907",
       "logo": "https://crests.football-data.org/7397.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555060,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "away": {
-      "id": 1771,
-      "name": "Cruzeiro EC",
-      "logo": "https://crests.football-data.org/1771.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555061,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "away": {
-      "id": 1776,
-      "name": "São Paulo FC",
-      "logo": "https://crests.football-data.org/1776.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555062,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png"
-    },
-    "away": {
-      "id": 1772,
-      "name": "Chapecoense AF",
-      "logo": "https://crests.football-data.org/1772_large.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555063,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "away": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555064,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4241,
-      "name": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png"
-    },
-    "away": {
-      "id": 1782,
-      "name": "EC Vitória",
-      "logo": "https://crests.football-data.org/1782.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555065,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1765,
-      "name": "Fluminense FC",
-      "logo": "https://crests.football-data.org/1765.png"
-    },
-    "away": {
-      "id": 6684,
-      "name": "SC Internacional",
-      "logo": "https://crests.football-data.org/6684.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555066,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "away": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555067,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4287,
-      "name": "Clube do Remo",
-      "logo": "https://crests.football-data.org/4287.png"
-    },
-    "away": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555068,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "away": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "logo": "https://crests.football-data.org/1769.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555069,
-    "date": "2026-10-28T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1780,
-      "name": "CR Vasco da Gama",
-      "logo": "https://crests.football-data.org/1780.png"
-    },
-    "away": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -7705,6 +7475,121 @@
     "awayGoals": null
   },
   {
+    "id": 555062,
+    "date": "2026-10-28T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4286,
+      "name": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png"
+    },
+    "away": {
+      "id": 1772,
+      "name": "Chapecoense AF",
+      "logo": "https://crests.football-data.org/1772_large.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555065,
+    "date": "2026-10-28T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1765,
+      "name": "Fluminense FC",
+      "logo": "https://crests.football-data.org/1765.png"
+    },
+    "away": {
+      "id": 6684,
+      "name": "SC Internacional",
+      "logo": "https://crests.football-data.org/6684.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555068,
+    "date": "2026-10-28T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 6685,
+      "name": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png"
+    },
+    "away": {
+      "id": 1769,
+      "name": "SE Palmeiras",
+      "logo": "https://crests.football-data.org/1769.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555061,
+    "date": "2026-10-29T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1777,
+      "name": "EC Bahia",
+      "logo": "https://crests.football-data.org/1777.png"
+    },
+    "away": {
+      "id": 1776,
+      "name": "São Paulo FC",
+      "logo": "https://crests.football-data.org/1776.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555067,
+    "date": "2026-10-29T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4287,
+      "name": "Clube do Remo",
+      "logo": "https://crests.football-data.org/4287.png"
+    },
+    "away": {
+      "id": 1770,
+      "name": "Botafogo FR",
+      "logo": "https://crests.football-data.org/1770.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558558,
     "date": "2026-10-29T17:30:00Z",
     "status": "NS",
@@ -7746,6 +7631,98 @@
       "id": 102,
       "name": "Atalanta BC",
       "logo": "https://crests.football-data.org/102.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555060,
+    "date": "2026-10-29T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1766,
+      "name": "CA Mineiro",
+      "logo": "https://crests.football-data.org/1766.png"
+    },
+    "away": {
+      "id": 1771,
+      "name": "Cruzeiro EC",
+      "logo": "https://crests.football-data.org/1771.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555064,
+    "date": "2026-10-29T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4241,
+      "name": "Coritiba FBC",
+      "logo": "https://crests.football-data.org/4241.png"
+    },
+    "away": {
+      "id": 1782,
+      "name": "EC Vitória",
+      "logo": "https://crests.football-data.org/1782.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555069,
+    "date": "2026-10-29T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1780,
+      "name": "CR Vasco da Gama",
+      "logo": "https://crests.football-data.org/1780.png"
+    },
+    "away": {
+      "id": 1783,
+      "name": "CR Flamengo",
+      "logo": "https://crests.football-data.org/1783.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555066,
+    "date": "2026-10-30T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1767,
+      "name": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png"
+    },
+    "away": {
+      "id": 1768,
+      "name": "CA Paranaense",
+      "logo": "https://crests.football-data.org/1768.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -7861,6 +7838,29 @@
       "id": 498,
       "name": "Sporting Clube de Portugal",
       "logo": "https://crests.football-data.org/498.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555063,
+    "date": "2026-10-30T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1779,
+      "name": "SC Corinthians Paulista",
+      "logo": "https://crests.football-data.org/1779.png"
+    },
+    "away": {
+      "id": 4364,
+      "name": "Mirassol FC",
+      "logo": "https://crests.football-data.org/4364.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -9545,6 +9545,29 @@
     "awayGoals": null
   },
   {
+    "id": 555072,
+    "date": "2026-11-02T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4286,
+      "name": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png"
+    },
+    "away": {
+      "id": 6685,
+      "name": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 575377,
     "date": "2026-11-03T17:45:00Z",
     "status": "NS",
@@ -9959,77 +9982,8 @@
     "awayGoals": null
   },
   {
-    "id": 555070,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
-    },
-    "away": {
-      "id": 1780,
-      "name": "CR Vasco da Gama",
-      "logo": "https://crests.football-data.org/1780.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555071,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "away": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555072,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png"
-    },
-    "away": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555073,
-    "date": "2026-11-04T00:00:00Z",
+    "date": "2026-11-03T22:30:00Z",
     "status": "NS",
     "competition": {
       "id": 2013,
@@ -10051,54 +10005,8 @@
     "awayGoals": null
   },
   {
-    "id": 555074,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1771,
-      "name": "Cruzeiro EC",
-      "logo": "https://crests.football-data.org/1771.png"
-    },
-    "away": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555075,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "away": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555076,
-    "date": "2026-11-04T00:00:00Z",
+    "date": "2026-11-04T00:30:00Z",
     "status": "NS",
     "competition": {
       "id": 2013,
@@ -10115,75 +10023,6 @@
       "id": 4241,
       "name": "Coritiba FBC",
       "logo": "https://crests.football-data.org/4241.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555077,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "logo": "https://crests.football-data.org/1769.png"
-    },
-    "away": {
-      "id": 4287,
-      "name": "Clube do Remo",
-      "logo": "https://crests.football-data.org/4287.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555078,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1776,
-      "name": "São Paulo FC",
-      "logo": "https://crests.football-data.org/1776.png"
-    },
-    "away": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555079,
-    "date": "2026-11-04T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1782,
-      "name": "EC Vitória",
-      "logo": "https://crests.football-data.org/1782.png"
-    },
-    "away": {
-      "id": 1765,
-      "name": "Fluminense FC",
-      "logo": "https://crests.football-data.org/1765.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -10465,6 +10304,144 @@
     "awayGoals": null
   },
   {
+    "id": 555070,
+    "date": "2026-11-04T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1768,
+      "name": "CA Paranaense",
+      "logo": "https://crests.football-data.org/1768.png"
+    },
+    "away": {
+      "id": 1780,
+      "name": "CR Vasco da Gama",
+      "logo": "https://crests.football-data.org/1780.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555075,
+    "date": "2026-11-04T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1783,
+      "name": "CR Flamengo",
+      "logo": "https://crests.football-data.org/1783.png"
+    },
+    "away": {
+      "id": 1767,
+      "name": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555071,
+    "date": "2026-11-05T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1770,
+      "name": "Botafogo FR",
+      "logo": "https://crests.football-data.org/1770.png"
+    },
+    "away": {
+      "id": 1766,
+      "name": "CA Mineiro",
+      "logo": "https://crests.football-data.org/1766.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555078,
+    "date": "2026-11-05T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1776,
+      "name": "São Paulo FC",
+      "logo": "https://crests.football-data.org/1776.png"
+    },
+    "away": {
+      "id": 1779,
+      "name": "SC Corinthians Paulista",
+      "logo": "https://crests.football-data.org/1779.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555077,
+    "date": "2026-11-05T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1769,
+      "name": "SE Palmeiras",
+      "logo": "https://crests.football-data.org/1769.png"
+    },
+    "away": {
+      "id": 4287,
+      "name": "Clube do Remo",
+      "logo": "https://crests.football-data.org/4287.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555074,
+    "date": "2026-11-06T00:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1771,
+      "name": "Cruzeiro EC",
+      "logo": "https://crests.football-data.org/1771.png"
+    },
+    "away": {
+      "id": 1777,
+      "name": "EC Bahia",
+      "logo": "https://crests.football-data.org/1777.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558845,
     "date": "2026-11-06T19:00:00Z",
     "status": "NS",
@@ -10621,6 +10598,29 @@
       "id": 712,
       "name": "FC Arouca",
       "logo": "https://crests.football-data.org/712.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555079,
+    "date": "2026-11-06T23:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1782,
+      "name": "EC Vitória",
+      "logo": "https://crests.football-data.org/1782.png"
+    },
+    "away": {
+      "id": 1765,
+      "name": "Fluminense FC",
+      "logo": "https://crests.football-data.org/1765.png"
     },
     "homeGoals": null,
     "awayGoals": null
