@@ -184,6 +184,29 @@
     "awayGoals": 2
   },
   {
+    "id": 565803,
+    "date": "2026-09-20T17:30:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "logo": "https://crests.football-data.org/29.png"
+    },
+    "away": {
+      "id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "logo": "https://crests.football-data.org/2.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
     "id": 567314,
     "date": "2026-09-20T17:00:00Z",
     "status": "FT",
@@ -322,6 +345,29 @@
     "awayGoals": 1
   },
   {
+    "id": 565805,
+    "date": "2026-09-20T15:30:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 6,
+      "name": "FC Schalke 04",
+      "logo": "https://crests.football-data.org/6.png"
+    },
+    "away": {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "logo": "https://crests.football-data.org/719.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
     "id": 559678,
     "date": "2026-09-20T15:15:00Z",
     "status": "FT",
@@ -457,6 +503,29 @@
       "logo": "https://crests.football-data.org/1769.png"
     },
     "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "id": 565807,
+    "date": "2026-09-20T13:30:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "logo": "https://crests.football-data.org/3.png"
+    },
+    "away": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "logo": "https://crests.football-data.org/721.png"
+    },
+    "homeGoals": 2,
     "awayGoals": 0
   },
   {
