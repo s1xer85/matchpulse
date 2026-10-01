@@ -4784,6 +4784,29 @@
     "awayGoals": null
   },
   {
+    "id": 567271,
+    "date": "2026-10-19T19:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5613,
+      "name": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png"
+    },
+    "away": {
+      "id": 5533,
+      "name": "Gil Vicente FC",
+      "logo": "https://crests.football-data.org/5533.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 555044,
     "date": "2026-10-19T23:00:00Z",
     "status": "NS",
