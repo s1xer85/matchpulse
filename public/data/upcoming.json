@@ -7222,29 +7222,6 @@
     "awayGoals": null
   },
   {
-    "id": 555051,
-    "date": "2026-10-25T22:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4241,
-      "name": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png"
-    },
-    "away": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 567331,
     "date": "2026-10-26T18:45:00Z",
     "status": "NS",
@@ -7286,6 +7263,29 @@
       "id": 79,
       "name": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 555051,
+    "date": "2026-10-26T22:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4241,
+      "name": "Coritiba FBC",
+      "logo": "https://crests.football-data.org/4241.png"
+    },
+    "away": {
+      "id": 1767,
+      "name": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png"
     },
     "homeGoals": null,
     "awayGoals": null
