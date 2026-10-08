@@ -1,51 +1,5 @@
 [
   {
-    "id": 555028,
-    "date": "2026-10-08T22:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "away": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555020,
-    "date": "2026-10-08T23:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
-    },
-    "away": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555024,
     "date": "2026-10-09T00:30:00Z",
     "status": "NS",
