@@ -1,28 +1,5 @@
 [
   {
-    "id": 558876,
-    "date": "2026-10-11T10:15:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 676,
-      "name": "FC Utrecht",
-      "logo": "https://crests.football-data.org/676.png"
-    },
-    "away": {
-      "id": 672,
-      "name": "Willem II Tilburg",
-      "logo": "https://crests.football-data.org/672.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 561859,
     "date": "2026-10-11T11:00:00Z",
     "status": "NS",
@@ -46,346 +23,93 @@
     "awayGoals": null
   },
   {
-    "id": 558874,
-    "date": "2026-10-11T12:30:00Z",
+    "id": 560594,
+    "date": "2026-10-11T13:00:00Z",
     "status": "NS",
     "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
     },
     "home": {
-      "id": 684,
-      "name": "PEC Zwolle",
-      "logo": "https://crests.football-data.org/684.png"
+      "id": 322,
+      "name": "Hull City AFC",
+      "logo": "https://crests.football-data.org/322.png"
     },
     "away": {
-      "id": 1909,
-      "name": "SC Cambuur-Leeuwarden",
-      "logo": "https://crests.football-data.org/1909.png"
+      "id": 62,
+      "name": "Everton FC",
+      "logo": "https://crests.football-data.org/62.png"
     },
     "homeGoals": null,
     "awayGoals": null
   },
   {
-    "id": 558875,
-    "date": "2026-10-11T12:30:00Z",
+    "id": 560596,
+    "date": "2026-10-11T13:00:00Z",
     "status": "NS",
     "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
     },
     "home": {
-      "id": 1912,
-      "name": "Telstar 1963",
-      "logo": "https://crests.football-data.org/1912.png"
+      "id": 354,
+      "name": "Crystal Palace FC",
+      "logo": "https://crests.football-data.org/354.png"
     },
     "away": {
-      "id": 680,
-      "name": "ADO Den Haag",
-      "logo": "https://crests.football-data.org/680.png"
+      "id": 351,
+      "name": "Nottingham Forest FC",
+      "logo": "https://crests.football-data.org/351.png"
     },
     "homeGoals": null,
     "awayGoals": null
   },
   {
-    "id": 567328,
-    "date": "2026-10-11T14:30:00Z",
+    "id": 560598,
+    "date": "2026-10-11T15:30:00Z",
     "status": "NS",
     "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
     },
     "home": {
-      "id": 496,
-      "name": "Rio Ave FC",
-      "logo": "https://crests.football-data.org/496.png"
+      "id": 64,
+      "name": "Liverpool FC",
+      "logo": "https://crests.football-data.org/64.png"
     },
     "away": {
-      "id": 5529,
-      "name": "CD Nacional",
-      "logo": "https://crests.football-data.org/5529.png"
+      "id": 65,
+      "name": "Manchester City FC",
+      "logo": "https://crests.football-data.org/65.png"
     },
     "homeGoals": null,
     "awayGoals": null
   },
   {
-    "id": 558873,
-    "date": "2026-10-11T14:45:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "logo": "https://crests.football-data.org/ED.png",
-      "country": "Netherlands"
-    },
-    "home": {
-      "id": 670,
-      "name": "SBV Excelsior",
-      "logo": "https://crests.football-data.org/670.png"
-    },
-    "away": {
-      "id": 677,
-      "name": "FC Groningen",
-      "logo": "https://crests.football-data.org/677.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567320,
-    "date": "2026-10-11T17:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 1903,
-      "name": "Sport Lisboa e Benfica",
-      "logo": "https://crests.football-data.org/1903.png"
-    },
-    "away": {
-      "id": 5543,
-      "name": "Vitória SC",
-      "logo": "https://crests.football-data.org/5543.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555030,
-    "date": "2026-10-11T19:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "away": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567324,
-    "date": "2026-10-11T19:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 712,
-      "name": "FC Arouca",
-      "logo": "https://crests.football-data.org/712.png"
-    },
-    "away": {
-      "id": 9136,
-      "name": "CF Estrela da Amadora",
-      "logo": "https://crests.football-data.org/9136.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555035,
-    "date": "2026-10-11T20:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "away": {
-      "id": 1765,
-      "name": "Fluminense FC",
-      "logo": "https://crests.football-data.org/1765.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555036,
-    "date": "2026-10-11T20:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "away": {
-      "id": 6684,
-      "name": "SC Internacional",
-      "logo": "https://crests.football-data.org/6684.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555037,
-    "date": "2026-10-11T20:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "logo": "https://crests.football-data.org/1769.png"
-    },
-    "away": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555031,
-    "date": "2026-10-11T22:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "away": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555034,
+    "id": 560597,
     "date": "2026-10-12T19:00:00Z",
     "status": "NS",
     "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
     },
     "home": {
-      "id": 4241,
-      "name": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png"
+      "id": 1076,
+      "name": "Coventry City FC",
+      "logo": "https://crests.football-data.org/1076.png"
     },
     "away": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567325,
-    "date": "2026-10-12T19:15:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5531,
-      "name": "FC Famalicão",
-      "logo": "https://crests.football-data.org/5531.png"
-    },
-    "away": {
-      "id": 7822,
-      "name": "FC Alverca",
-      "logo": "https://crests.football-data.org/7822.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555033,
-    "date": "2026-10-12T22:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1772,
-      "name": "Chapecoense AF",
-      "logo": "https://crests.football-data.org/1772_large.png"
-    },
-    "away": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555032,
-    "date": "2026-10-13T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png"
-    },
-    "away": {
-      "id": 1771,
-      "name": "Cruzeiro EC",
-      "logo": "https://crests.football-data.org/1771.png"
+      "id": 67,
+      "name": "Newcastle United FC",
+      "logo": "https://crests.football-data.org/67.png"
     },
     "homeGoals": null,
     "awayGoals": null
