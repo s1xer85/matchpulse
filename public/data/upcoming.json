@@ -13959,5 +13959,51 @@
     },
     "homeGoals": null,
     "awayGoals": null
+  },
+  {
+    "id": 558506,
+    "date": "2026-12-07T17:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 454,
+      "name": "Venezia FC",
+      "logo": "https://crests.football-data.org/454.png"
+    },
+    "away": {
+      "id": 471,
+      "name": "US Sassuolo Calcio",
+      "logo": "https://crests.football-data.org/471.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558503,
+    "date": "2026-12-07T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 99,
+      "name": "ACF Fiorentina",
+      "logo": "https://crests.football-data.org/99.png"
+    },
+    "away": {
+      "id": 104,
+      "name": "Cagliari Calcio",
+      "logo": "https://crests.football-data.org/104.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
   }
 ]
