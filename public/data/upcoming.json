@@ -23,29 +23,6 @@
     "awayGoals": null
   },
   {
-    "id": 555063,
-    "date": "2026-10-30T23:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "away": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 560626,
     "date": "2026-10-31T12:30:00Z",
     "status": "NS",
