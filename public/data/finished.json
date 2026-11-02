@@ -1,5 +1,51 @@
 [
   {
+    "id": 567339,
+    "date": "2026-11-01T20:30:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5613,
+      "name": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png"
+    },
+    "away": {
+      "id": 5531,
+      "name": "FC Famalicão",
+      "logo": "https://crests.football-data.org/5531.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "id": 564729,
+    "date": "2026-11-01T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2014,
+      "name": "Primera Division",
+      "logo": "https://crests.football-data.org/laliga.png",
+      "country": "Spain"
+    },
+    "home": {
+      "id": 77,
+      "name": "Athletic Club",
+      "logo": "https://crests.football-data.org/77.png"
+    },
+    "away": {
+      "id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "logo": "https://crests.football-data.org/92.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
     "id": 558547,
     "date": "2026-11-01T19:45:00Z",
     "status": "FT",
@@ -43,7 +89,7 @@
       "logo": "https://crests.football-data.org/511.png"
     },
     "homeGoals": 2,
-    "awayGoals": 1
+    "awayGoals": 0
   },
   {
     "id": 567340,
