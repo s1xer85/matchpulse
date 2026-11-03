@@ -1,5 +1,28 @@
 [
   {
+    "id": 555072,
+    "date": "2026-11-02T23:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 4286,
+      "name": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png"
+    },
+    "away": {
+      "id": 6685,
+      "name": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
     "id": 567342,
     "date": "2026-11-02T20:15:00Z",
     "status": "FT",
