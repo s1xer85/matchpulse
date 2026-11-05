@@ -1,51 +1,5 @@
 [
   {
-    "id": 555071,
-    "date": "2026-11-05T00:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "away": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555078,
-    "date": "2026-11-05T00:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1776,
-      "name": "São Paulo FC",
-      "logo": "https://crests.football-data.org/1776.png"
-    },
-    "away": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555077,
     "date": "2026-11-05T22:30:00Z",
     "status": "NS",
@@ -7176,6 +7130,29 @@
     "awayGoals": null
   },
   {
+    "id": 565882,
+    "date": "2026-12-04T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 5,
+      "name": "FC Bayern München",
+      "logo": "https://crests.football-data.org/5.png"
+    },
+    "away": {
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "logo": "https://crests.football-data.org/29.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558502,
     "date": "2026-12-04T19:45:00Z",
     "status": "NS",
@@ -7263,213 +7240,6 @@
       "id": 5575,
       "name": "CS Marítimo",
       "logo": "https://crests.football-data.org/5575.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565875,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 28,
-      "name": "1. FC Union Berlin",
-      "logo": "https://crests.football-data.org/28.png"
-    },
-    "away": {
-      "id": 7,
-      "name": "Hamburger SV",
-      "logo": "https://crests.football-data.org/7.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565876,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 6,
-      "name": "FC Schalke 04",
-      "logo": "https://crests.football-data.org/6.png"
-    },
-    "away": {
-      "id": 4,
-      "name": "Borussia Dortmund",
-      "logo": "https://crests.football-data.org/4.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565877,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "logo": "https://crests.football-data.org/3.png"
-    },
-    "away": {
-      "id": 18,
-      "name": "Borussia Mönchengladbach",
-      "logo": "https://crests.football-data.org/18.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565878,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 19,
-      "name": "Eintracht Frankfurt",
-      "logo": "https://crests.football-data.org/19.png"
-    },
-    "away": {
-      "id": 12,
-      "name": "SV Werder Bremen",
-      "logo": "https://crests.football-data.org/12.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565879,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 721,
-      "name": "RB Leipzig",
-      "logo": "https://crests.football-data.org/721.png"
-    },
-    "away": {
-      "id": 15,
-      "name": "1. FSV Mainz 05",
-      "logo": "https://crests.football-data.org/15.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565880,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 719,
-      "name": "SV 07 Elversberg",
-      "logo": "https://crests.football-data.org/719.png"
-    },
-    "away": {
-      "id": 10,
-      "name": "VfB Stuttgart",
-      "logo": "https://crests.football-data.org/10.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565881,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 17,
-      "name": "SC Freiburg",
-      "logo": "https://crests.football-data.org/17.png"
-    },
-    "away": {
-      "id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "logo": "https://crests.football-data.org/2.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565882,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 5,
-      "name": "FC Bayern München",
-      "logo": "https://crests.football-data.org/5.png"
-    },
-    "away": {
-      "id": 29,
-      "name": "SC Paderborn 07",
-      "logo": "https://crests.football-data.org/29.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565883,
-    "date": "2026-12-05T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 16,
-      "name": "FC Augsburg",
-      "logo": "https://crests.football-data.org/16.png"
-    },
-    "away": {
-      "id": 1,
-      "name": "1. FC Köln",
-      "logo": "https://crests.football-data.org/1.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -7585,6 +7355,121 @@
       "id": 7397,
       "name": "Como 1907",
       "logo": "https://crests.football-data.org/7397.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565875,
+    "date": "2026-12-05T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 28,
+      "name": "1. FC Union Berlin",
+      "logo": "https://crests.football-data.org/28.png"
+    },
+    "away": {
+      "id": 7,
+      "name": "Hamburger SV",
+      "logo": "https://crests.football-data.org/7.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565877,
+    "date": "2026-12-05T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "logo": "https://crests.football-data.org/3.png"
+    },
+    "away": {
+      "id": 18,
+      "name": "Borussia Mönchengladbach",
+      "logo": "https://crests.football-data.org/18.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565879,
+    "date": "2026-12-05T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "logo": "https://crests.football-data.org/721.png"
+    },
+    "away": {
+      "id": 15,
+      "name": "1. FSV Mainz 05",
+      "logo": "https://crests.football-data.org/15.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565881,
+    "date": "2026-12-05T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 17,
+      "name": "SC Freiburg",
+      "logo": "https://crests.football-data.org/17.png"
+    },
+    "away": {
+      "id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "logo": "https://crests.football-data.org/2.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565883,
+    "date": "2026-12-05T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 16,
+      "name": "FC Augsburg",
+      "logo": "https://crests.football-data.org/16.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "1. FC Köln",
+      "logo": "https://crests.football-data.org/1.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -7953,6 +7838,29 @@
       "id": 397,
       "name": "Brighton & Hove Albion FC",
       "logo": "https://crests.football-data.org/397.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565878,
+    "date": "2026-12-05T17:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 19,
+      "name": "Eintracht Frankfurt",
+      "logo": "https://crests.football-data.org/19.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "SV Werder Bremen",
+      "logo": "https://crests.football-data.org/12.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -8648,6 +8556,29 @@
     "awayGoals": null
   },
   {
+    "id": 565876,
+    "date": "2026-12-06T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 6,
+      "name": "FC Schalke 04",
+      "logo": "https://crests.football-data.org/6.png"
+    },
+    "away": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "logo": "https://crests.football-data.org/4.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 567366,
     "date": "2026-12-06T15:30:00Z",
     "status": "NS",
@@ -8758,6 +8689,29 @@
       "id": 57,
       "name": "Arsenal FC",
       "logo": "https://crests.football-data.org/57.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565880,
+    "date": "2026-12-06T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "logo": "https://crests.football-data.org/719.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "VfB Stuttgart",
+      "logo": "https://crests.football-data.org/10.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -9384,29 +9338,6 @@
     "awayGoals": null
   },
   {
-    "id": 564698,
-    "date": "2026-12-09T19:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2014,
-      "name": "Primera Division",
-      "logo": "https://crests.football-data.org/laliga.png",
-      "country": "Spain"
-    },
-    "home": {
-      "id": 87,
-      "name": "Rayo Vallecano de Madrid",
-      "logo": "https://crests.football-data.org/87.png"
-    },
-    "away": {
-      "id": 77,
-      "name": "Athletic Club",
-      "logo": "https://crests.football-data.org/77.png"
-    },
-    "homeGoals": 0,
-    "awayGoals": 0
-  },
-  {
     "id": 561998,
     "date": "2026-12-09T19:45:00Z",
     "status": "NS",
@@ -9660,6 +9591,29 @@
     "awayGoals": null
   },
   {
+    "id": 565888,
+    "date": "2026-12-11T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 7,
+      "name": "Hamburger SV",
+      "logo": "https://crests.football-data.org/7.png"
+    },
+    "away": {
+      "id": 6,
+      "name": "FC Schalke 04",
+      "logo": "https://crests.football-data.org/6.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558491,
     "date": "2026-12-11T19:45:00Z",
     "status": "NS",
@@ -9752,213 +9706,6 @@
     "awayGoals": null
   },
   {
-    "id": 565884,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 29,
-      "name": "SC Paderborn 07",
-      "logo": "https://crests.football-data.org/29.png"
-    },
-    "away": {
-      "id": 719,
-      "name": "SV 07 Elversberg",
-      "logo": "https://crests.football-data.org/719.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565885,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 12,
-      "name": "SV Werder Bremen",
-      "logo": "https://crests.football-data.org/12.png"
-    },
-    "away": {
-      "id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "logo": "https://crests.football-data.org/3.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565886,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 10,
-      "name": "VfB Stuttgart",
-      "logo": "https://crests.football-data.org/10.png"
-    },
-    "away": {
-      "id": 28,
-      "name": "1. FC Union Berlin",
-      "logo": "https://crests.football-data.org/28.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565887,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 4,
-      "name": "Borussia Dortmund",
-      "logo": "https://crests.football-data.org/4.png"
-    },
-    "away": {
-      "id": 16,
-      "name": "FC Augsburg",
-      "logo": "https://crests.football-data.org/16.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565888,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 7,
-      "name": "Hamburger SV",
-      "logo": "https://crests.football-data.org/7.png"
-    },
-    "away": {
-      "id": 6,
-      "name": "FC Schalke 04",
-      "logo": "https://crests.football-data.org/6.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565889,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 15,
-      "name": "1. FSV Mainz 05",
-      "logo": "https://crests.football-data.org/15.png"
-    },
-    "away": {
-      "id": 17,
-      "name": "SC Freiburg",
-      "logo": "https://crests.football-data.org/17.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565890,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 1,
-      "name": "1. FC Köln",
-      "logo": "https://crests.football-data.org/1.png"
-    },
-    "away": {
-      "id": 721,
-      "name": "RB Leipzig",
-      "logo": "https://crests.football-data.org/721.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565891,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "logo": "https://crests.football-data.org/2.png"
-    },
-    "away": {
-      "id": 5,
-      "name": "FC Bayern München",
-      "logo": "https://crests.football-data.org/5.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565892,
-    "date": "2026-12-12T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 18,
-      "name": "Borussia Mönchengladbach",
-      "logo": "https://crests.football-data.org/18.png"
-    },
-    "away": {
-      "id": 19,
-      "name": "Eintracht Frankfurt",
-      "logo": "https://crests.football-data.org/19.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 562003,
     "date": "2026-12-12T12:30:00Z",
     "status": "NS",
@@ -10046,6 +9793,98 @@
       "id": 454,
       "name": "Venezia FC",
       "logo": "https://crests.football-data.org/454.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565884,
+    "date": "2026-12-12T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "logo": "https://crests.football-data.org/29.png"
+    },
+    "away": {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "logo": "https://crests.football-data.org/719.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565886,
+    "date": "2026-12-12T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 10,
+      "name": "VfB Stuttgart",
+      "logo": "https://crests.football-data.org/10.png"
+    },
+    "away": {
+      "id": 28,
+      "name": "1. FC Union Berlin",
+      "logo": "https://crests.football-data.org/28.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565887,
+    "date": "2026-12-12T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "logo": "https://crests.football-data.org/4.png"
+    },
+    "away": {
+      "id": 16,
+      "name": "FC Augsburg",
+      "logo": "https://crests.football-data.org/16.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565890,
+    "date": "2026-12-12T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 1,
+      "name": "1. FC Köln",
+      "logo": "https://crests.football-data.org/1.png"
+    },
+    "away": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "logo": "https://crests.football-data.org/721.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -10414,6 +10253,29 @@
       "id": 61,
       "name": "Chelsea FC",
       "logo": "https://crests.football-data.org/61.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565892,
+    "date": "2026-12-12T17:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 18,
+      "name": "Borussia Mönchengladbach",
+      "logo": "https://crests.football-data.org/18.png"
+    },
+    "away": {
+      "id": 19,
+      "name": "Eintracht Frankfurt",
+      "logo": "https://crests.football-data.org/19.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -11063,6 +10925,29 @@
     "awayGoals": null
   },
   {
+    "id": 565889,
+    "date": "2026-12-13T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 15,
+      "name": "1. FSV Mainz 05",
+      "logo": "https://crests.football-data.org/15.png"
+    },
+    "away": {
+      "id": 17,
+      "name": "SC Freiburg",
+      "logo": "https://crests.football-data.org/17.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 567377,
     "date": "2026-12-13T15:30:00Z",
     "status": "NS",
@@ -11178,6 +11063,29 @@
     "awayGoals": null
   },
   {
+    "id": 565891,
+    "date": "2026-12-13T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "logo": "https://crests.football-data.org/2.png"
+    },
+    "away": {
+      "id": 5,
+      "name": "FC Bayern München",
+      "logo": "https://crests.football-data.org/5.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558493,
     "date": "2026-12-13T17:00:00Z",
     "status": "NS",
@@ -11219,6 +11127,29 @@
       "id": 7822,
       "name": "FC Alverca",
       "logo": "https://crests.football-data.org/7822.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565885,
+    "date": "2026-12-13T18:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 12,
+      "name": "SV Werder Bremen",
+      "logo": "https://crests.football-data.org/12.png"
+    },
+    "away": {
+      "id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "logo": "https://crests.football-data.org/3.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -11477,6 +11408,29 @@
     "awayGoals": null
   },
   {
+    "id": 565894,
+    "date": "2026-12-18T19:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 5,
+      "name": "FC Bayern München",
+      "logo": "https://crests.football-data.org/5.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "SV Werder Bremen",
+      "logo": "https://crests.football-data.org/12.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558486,
     "date": "2026-12-18T19:45:00Z",
     "status": "NS",
@@ -11518,213 +11472,6 @@
       "id": 356,
       "name": "Sheffield United FC",
       "logo": "https://crests.football-data.org/356.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565893,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 6,
-      "name": "FC Schalke 04",
-      "logo": "https://crests.football-data.org/6.png"
-    },
-    "away": {
-      "id": 18,
-      "name": "Borussia Mönchengladbach",
-      "logo": "https://crests.football-data.org/18.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565894,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 5,
-      "name": "FC Bayern München",
-      "logo": "https://crests.football-data.org/5.png"
-    },
-    "away": {
-      "id": 12,
-      "name": "SV Werder Bremen",
-      "logo": "https://crests.football-data.org/12.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565895,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 719,
-      "name": "SV 07 Elversberg",
-      "logo": "https://crests.football-data.org/719.png"
-    },
-    "away": {
-      "id": 7,
-      "name": "Hamburger SV",
-      "logo": "https://crests.football-data.org/7.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565896,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 3,
-      "name": "Bayer 04 Leverkusen",
-      "logo": "https://crests.football-data.org/3.png"
-    },
-    "away": {
-      "id": 19,
-      "name": "Eintracht Frankfurt",
-      "logo": "https://crests.football-data.org/19.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565897,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 17,
-      "name": "SC Freiburg",
-      "logo": "https://crests.football-data.org/17.png"
-    },
-    "away": {
-      "id": 10,
-      "name": "VfB Stuttgart",
-      "logo": "https://crests.football-data.org/10.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565898,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 721,
-      "name": "RB Leipzig",
-      "logo": "https://crests.football-data.org/721.png"
-    },
-    "away": {
-      "id": 4,
-      "name": "Borussia Dortmund",
-      "logo": "https://crests.football-data.org/4.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565899,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 15,
-      "name": "1. FSV Mainz 05",
-      "logo": "https://crests.football-data.org/15.png"
-    },
-    "away": {
-      "id": 1,
-      "name": "1. FC Köln",
-      "logo": "https://crests.football-data.org/1.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565900,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 28,
-      "name": "1. FC Union Berlin",
-      "logo": "https://crests.football-data.org/28.png"
-    },
-    "away": {
-      "id": 2,
-      "name": "TSG 1899 Hoffenheim",
-      "logo": "https://crests.football-data.org/2.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 565901,
-    "date": "2026-12-19T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2002,
-      "name": "Bundesliga",
-      "logo": "https://crests.football-data.org/BL1.png",
-      "country": "Germany"
-    },
-    "home": {
-      "id": 16,
-      "name": "FC Augsburg",
-      "logo": "https://crests.football-data.org/16.png"
-    },
-    "away": {
-      "id": 29,
-      "name": "SC Paderborn 07",
-      "logo": "https://crests.football-data.org/29.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -11886,6 +11633,98 @@
       "id": 112,
       "name": "Parma Calcio 1913",
       "logo": "https://crests.football-data.org/112.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565895,
+    "date": "2026-12-19T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "logo": "https://crests.football-data.org/719.png"
+    },
+    "away": {
+      "id": 7,
+      "name": "Hamburger SV",
+      "logo": "https://crests.football-data.org/7.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565896,
+    "date": "2026-12-19T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 3,
+      "name": "Bayer 04 Leverkusen",
+      "logo": "https://crests.football-data.org/3.png"
+    },
+    "away": {
+      "id": 19,
+      "name": "Eintracht Frankfurt",
+      "logo": "https://crests.football-data.org/19.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565899,
+    "date": "2026-12-19T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 15,
+      "name": "1. FSV Mainz 05",
+      "logo": "https://crests.football-data.org/15.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "1. FC Köln",
+      "logo": "https://crests.football-data.org/1.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565901,
+    "date": "2026-12-19T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 16,
+      "name": "FC Augsburg",
+      "logo": "https://crests.football-data.org/16.png"
+    },
+    "away": {
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "logo": "https://crests.football-data.org/29.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -12162,6 +12001,29 @@
       "id": 73,
       "name": "Tottenham Hotspur FC",
       "logo": "https://crests.football-data.org/73.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565898,
+    "date": "2026-12-19T17:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "logo": "https://crests.football-data.org/721.png"
+    },
+    "away": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "logo": "https://crests.football-data.org/4.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -12668,6 +12530,397 @@
       "id": 6618,
       "name": "Casa Pia AC",
       "logo": "https://crests.football-data.org/6618.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558798,
+    "date": "2026-12-20T11:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 1915,
+      "name": "NEC",
+      "logo": "https://crests.football-data.org/1915.png"
+    },
+    "away": {
+      "id": 680,
+      "name": "ADO Den Haag",
+      "logo": "https://crests.football-data.org/680.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558484,
+    "date": "2026-12-20T11:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 99,
+      "name": "ACF Fiorentina",
+      "logo": "https://crests.football-data.org/99.png"
+    },
+    "away": {
+      "id": 103,
+      "name": "Bologna FC 1909",
+      "logo": "https://crests.football-data.org/103.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558792,
+    "date": "2026-12-20T13:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 1909,
+      "name": "SC Cambuur-Leeuwarden",
+      "logo": "https://crests.football-data.org/1909.png"
+    },
+    "away": {
+      "id": 677,
+      "name": "FC Groningen",
+      "logo": "https://crests.football-data.org/677.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558797,
+    "date": "2026-12-20T13:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 675,
+      "name": "Feyenoord Rotterdam",
+      "logo": "https://crests.football-data.org/675.png"
+    },
+    "away": {
+      "id": 666,
+      "name": "FC Twente '65",
+      "logo": "https://crests.football-data.org/666.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560693,
+    "date": "2026-12-20T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 397,
+      "name": "Brighton & Hove Albion FC",
+      "logo": "https://crests.football-data.org/397.png"
+    },
+    "away": {
+      "id": 349,
+      "name": "Ipswich Town FC",
+      "logo": "https://crests.football-data.org/349.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560694,
+    "date": "2026-12-20T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 351,
+      "name": "Nottingham Forest FC",
+      "logo": "https://crests.football-data.org/351.png"
+    },
+    "away": {
+      "id": 62,
+      "name": "Everton FC",
+      "logo": "https://crests.football-data.org/62.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560697,
+    "date": "2026-12-20T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 71,
+      "name": "Sunderland AFC",
+      "logo": "https://crests.football-data.org/71.png"
+    },
+    "away": {
+      "id": 354,
+      "name": "Crystal Palace FC",
+      "logo": "https://crests.football-data.org/354.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558487,
+    "date": "2026-12-20T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 586,
+      "name": "Torino FC",
+      "logo": "https://crests.football-data.org/586.png"
+    },
+    "away": {
+      "id": 104,
+      "name": "Cagliari Calcio",
+      "logo": "https://crests.football-data.org/104.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558488,
+    "date": "2026-12-20T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 454,
+      "name": "Venezia FC",
+      "logo": "https://crests.football-data.org/454.png"
+    },
+    "away": {
+      "id": 5911,
+      "name": "AC Monza",
+      "logo": "https://crests.football-data.org/5911.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565897,
+    "date": "2026-12-20T14:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 17,
+      "name": "SC Freiburg",
+      "logo": "https://crests.football-data.org/17.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "VfB Stuttgart",
+      "logo": "https://crests.football-data.org/10.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558796,
+    "date": "2026-12-20T15:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 718,
+      "name": "Go Ahead Eagles",
+      "logo": "https://crests.football-data.org/718.png"
+    },
+    "away": {
+      "id": 678,
+      "name": "AFC Ajax",
+      "logo": "https://crests.football-data.org/678.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560699,
+    "date": "2026-12-20T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 57,
+      "name": "Arsenal FC",
+      "logo": "https://crests.football-data.org/57.png"
+    },
+    "away": {
+      "id": 66,
+      "name": "Manchester United FC",
+      "logo": "https://crests.football-data.org/66.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565900,
+    "date": "2026-12-20T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 28,
+      "name": "1. FC Union Berlin",
+      "logo": "https://crests.football-data.org/28.png"
+    },
+    "away": {
+      "id": 2,
+      "name": "TSG 1899 Hoffenheim",
+      "logo": "https://crests.football-data.org/2.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558485,
+    "date": "2026-12-20T17:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 107,
+      "name": "Genoa CFC",
+      "logo": "https://crests.football-data.org/107.png"
+    },
+    "away": {
+      "id": 115,
+      "name": "Udinese Calcio",
+      "logo": "https://crests.football-data.org/115.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 565893,
+    "date": "2026-12-20T18:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2002,
+      "name": "Bundesliga",
+      "logo": "https://crests.football-data.org/BL1.png",
+      "country": "Germany"
+    },
+    "home": {
+      "id": 6,
+      "name": "FC Schalke 04",
+      "logo": "https://crests.football-data.org/6.png"
+    },
+    "away": {
+      "id": 18,
+      "name": "Borussia Mönchengladbach",
+      "logo": "https://crests.football-data.org/18.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558795,
+    "date": "2026-12-20T19:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "logo": "https://crests.football-data.org/ED.png",
+      "country": "Netherlands"
+    },
+    "home": {
+      "id": 674,
+      "name": "PSV",
+      "logo": "https://crests.football-data.org/674.png"
+    },
+    "away": {
+      "id": 684,
+      "name": "PEC Zwolle",
+      "logo": "https://crests.football-data.org/684.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558483,
+    "date": "2026-12-20T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 102,
+      "name": "Atalanta BC",
+      "logo": "https://crests.football-data.org/102.png"
+    },
+    "away": {
+      "id": 113,
+      "name": "SSC Napoli",
+      "logo": "https://crests.football-data.org/113.png"
     },
     "homeGoals": null,
     "awayGoals": null
