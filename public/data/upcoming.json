@@ -1,51 +1,5 @@
 [
   {
-    "id": 555080,
-    "date": "2026-11-19T00:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1779,
-      "name": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png"
-    },
-    "away": {
-      "id": 1770,
-      "name": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555084,
-    "date": "2026-11-19T00:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1767,
-      "name": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png"
-    },
-    "away": {
-      "id": 1777,
-      "name": "EC Bahia",
-      "logo": "https://crests.football-data.org/1777.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555088,
     "date": "2026-11-19T22:30:00Z",
     "status": "NS",
