@@ -1,97 +1,5 @@
 [
   {
-    "id": 555081,
-    "date": "2026-11-18T22:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4241,
-      "name": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png"
-    },
-    "away": {
-      "id": 6685,
-      "name": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555086,
-    "date": "2026-11-18T23:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4287,
-      "name": "Clube do Remo",
-      "logo": "https://crests.football-data.org/4287.png"
-    },
-    "away": {
-      "id": 1772,
-      "name": "Chapecoense AF",
-      "logo": "https://crests.football-data.org/1772_large.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555082,
-    "date": "2026-11-18T23:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1771,
-      "name": "Cruzeiro EC",
-      "logo": "https://crests.football-data.org/1771.png"
-    },
-    "away": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "logo": "https://crests.football-data.org/1769.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 555083,
-    "date": "2026-11-18T23:30:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "logo": "https://crests.football-data.org/1783.png"
-    },
-    "away": {
-      "id": 1768,
-      "name": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 555080,
     "date": "2026-11-19T00:30:00Z",
     "status": "NS",
@@ -13243,6 +13151,236 @@
       "id": 78,
       "name": "Club Atlético de Madrid",
       "logo": "https://crests.football-data.org/78.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558476,
+    "date": "2027-01-03T11:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 108,
+      "name": "FC Internazionale Milano",
+      "logo": "https://crests.football-data.org/108.png"
+    },
+    "away": {
+      "id": 471,
+      "name": "US Sassuolo Calcio",
+      "logo": "https://crests.football-data.org/471.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560728,
+    "date": "2027-01-03T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 61,
+      "name": "Chelsea FC",
+      "logo": "https://crests.football-data.org/61.png"
+    },
+    "away": {
+      "id": 67,
+      "name": "Newcastle United FC",
+      "logo": "https://crests.football-data.org/67.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558469,
+    "date": "2027-01-03T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 115,
+      "name": "Udinese Calcio",
+      "logo": "https://crests.football-data.org/115.png"
+    },
+    "away": {
+      "id": 102,
+      "name": "Atalanta BC",
+      "logo": "https://crests.football-data.org/102.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558470,
+    "date": "2027-01-03T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 7397,
+      "name": "Como 1907",
+      "logo": "https://crests.football-data.org/7397.png"
+    },
+    "away": {
+      "id": 5890,
+      "name": "US Lecce",
+      "logo": "https://crests.football-data.org/5890.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 559586,
+    "date": "2027-01-03T14:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "logo": "https://crests.football-data.org/FL1.png",
+      "country": "France"
+    },
+    "home": {
+      "id": 535,
+      "name": "Le Mans FC",
+      "logo": "https://crests.football-data.org/535.png"
+    },
+    "away": {
+      "id": 523,
+      "name": "Olympique Lyonnais",
+      "logo": "https://crests.football-data.org/523.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 559593,
+    "date": "2027-01-03T16:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "logo": "https://crests.football-data.org/FL1.png",
+      "country": "France"
+    },
+    "home": {
+      "id": 521,
+      "name": "Lille OSC",
+      "logo": "https://crests.football-data.org/521.png"
+    },
+    "away": {
+      "id": 576,
+      "name": "RC Strasbourg Alsace",
+      "logo": "https://crests.football-data.org/576.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 560731,
+    "date": "2027-01-03T16:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2021,
+      "name": "Premier League",
+      "logo": "https://crests.football-data.org/PL.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 65,
+      "name": "Manchester City FC",
+      "logo": "https://crests.football-data.org/65.png"
+    },
+    "away": {
+      "id": 73,
+      "name": "Tottenham Hotspur FC",
+      "logo": "https://crests.football-data.org/73.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558472,
+    "date": "2027-01-03T17:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 112,
+      "name": "Parma Calcio 1913",
+      "logo": "https://crests.football-data.org/112.png"
+    },
+    "away": {
+      "id": 113,
+      "name": "SSC Napoli",
+      "logo": "https://crests.football-data.org/113.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 558477,
+    "date": "2027-01-03T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "logo": "https://crests.football-data.org/c111.png",
+      "country": "Italy"
+    },
+    "home": {
+      "id": 103,
+      "name": "Bologna FC 1909",
+      "logo": "https://crests.football-data.org/103.png"
+    },
+    "away": {
+      "id": 109,
+      "name": "Juventus FC",
+      "logo": "https://crests.football-data.org/109.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 559585,
+    "date": "2027-01-03T19:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "logo": "https://crests.football-data.org/FL1.png",
+      "country": "France"
+    },
+    "home": {
+      "id": 546,
+      "name": "Racing Club de Lens",
+      "logo": "https://crests.football-data.org/546.png"
+    },
+    "away": {
+      "id": 524,
+      "name": "Paris Saint-Germain FC",
+      "logo": "https://crests.football-data.org/524.png"
     },
     "homeGoals": null,
     "awayGoals": null
