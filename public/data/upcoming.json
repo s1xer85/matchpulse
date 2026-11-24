@@ -10971,29 +10971,6 @@
     "awayGoals": null
   },
   {
-    "id": 559591,
-    "date": "2027-01-02T20:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "logo": "https://crests.football-data.org/FL1.png",
-      "country": "France"
-    },
-    "home": {
-      "id": 1045,
-      "name": "Paris FC",
-      "logo": "https://crests.football-data.org/1045.png"
-    },
-    "away": {
-      "id": 533,
-      "name": "Le Havre AC",
-      "logo": "https://crests.football-data.org/533.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 559592,
     "date": "2027-01-02T20:00:00Z",
     "status": "NS",
@@ -11357,6 +11334,29 @@
       "id": 523,
       "name": "Olympique Lyonnais",
       "logo": "https://crests.football-data.org/523.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 559591,
+    "date": "2027-01-03T16:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "logo": "https://crests.football-data.org/FL1.png",
+      "country": "France"
+    },
+    "home": {
+      "id": 1045,
+      "name": "Paris FC",
+      "logo": "https://crests.football-data.org/1045.png"
+    },
+    "away": {
+      "id": 533,
+      "name": "Le Havre AC",
+      "logo": "https://crests.football-data.org/533.png"
     },
     "homeGoals": null,
     "awayGoals": null
