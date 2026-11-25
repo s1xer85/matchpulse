@@ -1,5 +1,419 @@
 [
   {
+    "id": 555102,
+    "date": "2026-11-24T21:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2013,
+      "name": "Campeonato Brasileiro Série A",
+      "logo": "https://crests.football-data.org/bsa.png",
+      "country": "Brazil"
+    },
+    "home": {
+      "id": 1772,
+      "name": "Chapecoense AF",
+      "logo": "https://crests.football-data.org/1772_large.png"
+    },
+    "away": {
+      "id": 1769,
+      "name": "SE Palmeiras",
+      "logo": "https://crests.football-data.org/1769.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "id": 561957,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 76,
+      "name": "Wolverhampton Wanderers FC",
+      "logo": "https://crests.football-data.org/76.png"
+    },
+    "away": {
+      "id": 342,
+      "name": "Derby County FC",
+      "logo": "https://crests.football-data.org/342.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "id": 575397,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 86,
+      "name": "Real Madrid CF",
+      "logo": "https://crests.football-data.org/86.png"
+    },
+    "away": {
+      "id": 674,
+      "name": "PSV",
+      "logo": "https://crests.football-data.org/674.png"
+    },
+    "homeGoals": 5,
+    "awayGoals": 1
+  },
+  {
+    "id": 575398,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 65,
+      "name": "Manchester City FC",
+      "logo": "https://crests.football-data.org/65.png"
+    },
+    "away": {
+      "id": 113,
+      "name": "SSC Napoli",
+      "logo": "https://crests.football-data.org/113.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "id": 575399,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 57,
+      "name": "Arsenal FC",
+      "logo": "https://crests.football-data.org/57.png"
+    },
+    "away": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "logo": "https://crests.football-data.org/4.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "id": 575400,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 675,
+      "name": "Feyenoord Rotterdam",
+      "logo": "https://crests.football-data.org/675.png"
+    },
+    "away": {
+      "id": 503,
+      "name": "FC Porto",
+      "logo": "https://crests.football-data.org/503.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "id": 575401,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 7509,
+      "name": "ŠK Slovan Bratislava",
+      "logo": "https://crests.football-data.org/7509.png"
+    },
+    "away": {
+      "id": 90,
+      "name": "Real Betis Balompié",
+      "logo": "https://crests.football-data.org/90.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "id": 575402,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "logo": "https://crests.football-data.org/721.png"
+    },
+    "away": {
+      "id": 546,
+      "name": "Racing Club de Lens",
+      "logo": "https://crests.football-data.org/546.png"
+    },
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "id": 575403,
+    "date": "2026-11-24T20:00:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 7397,
+      "name": "Como 1907",
+      "logo": "https://crests.football-data.org/7397.png"
+    },
+    "away": {
+      "id": 1899,
+      "name": "PAE AEK",
+      "logo": "https://crests.football-data.org/1899.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "id": 561953,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 715,
+      "name": "Cardiff City FC",
+      "logo": "https://crests.football-data.org/715.png"
+    },
+    "away": {
+      "id": 1081,
+      "name": "Preston North End FC",
+      "logo": "https://crests.football-data.org/1081.png"
+    },
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "id": 561954,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 343,
+      "name": "Middlesbrough FC",
+      "logo": "https://crests.football-data.org/343.png"
+    },
+    "away": {
+      "id": 72,
+      "name": "Swansea City AFC",
+      "logo": "https://crests.football-data.org/72.png"
+    },
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "id": 561955,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 325,
+      "name": "Portsmouth FC",
+      "logo": "https://crests.football-data.org/325.png"
+    },
+    "away": {
+      "id": 563,
+      "name": "West Ham United FC",
+      "logo": "https://crests.football-data.org/563.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "id": 561956,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 356,
+      "name": "Sheffield United FC",
+      "logo": "https://crests.football-data.org/356.png"
+    },
+    "away": {
+      "id": 340,
+      "name": "Southampton FC",
+      "logo": "https://crests.football-data.org/340.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "id": 561958,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 348,
+      "name": "Charlton Athletic FC",
+      "logo": "https://crests.football-data.org/348.png"
+    },
+    "away": {
+      "id": 1126,
+      "name": "Lincoln City FC",
+      "logo": "https://crests.football-data.org/1126.png"
+    },
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "id": 561959,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 387,
+      "name": "Bristol City FC",
+      "logo": "https://crests.football-data.org/387.png"
+    },
+    "away": {
+      "id": 404,
+      "name": "Wrexham AFC",
+      "logo": "https://crests.football-data.org/404.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "id": 561960,
+    "date": "2026-11-24T19:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2016,
+      "name": "Championship",
+      "logo": "https://crests.football-data.org/ELC.png",
+      "country": "England"
+    },
+    "home": {
+      "id": 68,
+      "name": "Norwich City FC",
+      "logo": "https://crests.football-data.org/68.png"
+    },
+    "away": {
+      "id": 69,
+      "name": "Queens Park Rangers FC",
+      "logo": "https://crests.football-data.org/69.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "id": 575395,
+    "date": "2026-11-24T17:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 610,
+      "name": "Galatasaray SK",
+      "logo": "https://crests.football-data.org/610.png"
+    },
+    "away": {
+      "id": 58,
+      "name": "Aston Villa FC",
+      "logo": "https://crests.football-data.org/58.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "id": 575396,
+    "date": "2026-11-24T17:45:00Z",
+    "status": "FT",
+    "competition": {
+      "id": 2001,
+      "name": "UEFA Champions League",
+      "logo": "https://crests.football-data.org/CL.png",
+      "country": "Europe"
+    },
+    "home": {
+      "id": 5721,
+      "name": "FK Bodø/Glimt",
+      "logo": "https://crests.football-data.org/5721.png"
+    },
+    "away": {
+      "id": 2016,
+      "name": "LASK Linz",
+      "logo": "https://crests.football-data.org/2016.png"
+    },
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
     "id": 555099,
     "date": "2026-11-24T00:00:00Z",
     "status": "FT",
@@ -1999,51 +2413,5 @@
     },
     "homeGoals": 0,
     "awayGoals": 1
-  },
-  {
-    "id": 554942,
-    "date": "2026-11-14T23:30:00Z",
-    "status": "FT",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 1772,
-      "name": "Chapecoense AF",
-      "logo": "https://crests.football-data.org/1772_large.png"
-    },
-    "away": {
-      "id": 1780,
-      "name": "CR Vasco da Gama",
-      "logo": "https://crests.football-data.org/1780.png"
-    },
-    "homeGoals": 0,
-    "awayGoals": 2
-  },
-  {
-    "id": 555085,
-    "date": "2026-11-14T21:30:00Z",
-    "status": "FT",
-    "competition": {
-      "id": 2013,
-      "name": "Campeonato Brasileiro Série A",
-      "logo": "https://crests.football-data.org/bsa.png",
-      "country": "Brazil"
-    },
-    "home": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png"
-    },
-    "away": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "logo": "https://crests.football-data.org/1766.png"
-    },
-    "homeGoals": 0,
-    "awayGoals": 0
   }
 ]
