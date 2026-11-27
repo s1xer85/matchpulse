@@ -7774,52 +7774,6 @@
     "awayGoals": null
   },
   {
-    "id": 567384,
-    "date": "2026-12-20T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5613,
-      "name": "Sporting Clube de Braga",
-      "logo": "https://crests.football-data.org/5613.png"
-    },
-    "away": {
-      "id": 5527,
-      "name": "Académico de Viseu FC",
-      "logo": "https://crests.football-data.org/5527.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567385,
-    "date": "2026-12-20T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 498,
-      "name": "Sporting Clube de Portugal",
-      "logo": "https://crests.football-data.org/498.png"
-    },
-    "away": {
-      "id": 582,
-      "name": "GD Estoril Praia",
-      "logo": "https://crests.football-data.org/582.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 558798,
     "date": "2026-12-20T11:15:00Z",
     "status": "NS",
@@ -8349,6 +8303,52 @@
     "awayGoals": null
   },
   {
+    "id": 567384,
+    "date": "2026-12-22T18:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5613,
+      "name": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png"
+    },
+    "away": {
+      "id": 5527,
+      "name": "Académico de Viseu FC",
+      "logo": "https://crests.football-data.org/5527.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567385,
+    "date": "2026-12-22T20:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 498,
+      "name": "Sporting Clube de Portugal",
+      "logo": "https://crests.football-data.org/498.png"
+    },
+    "away": {
+      "id": 582,
+      "name": "GD Estoril Praia",
+      "logo": "https://crests.football-data.org/582.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 560702,
     "date": "2026-12-26T12:30:00Z",
     "status": "NS",
@@ -8786,213 +8786,6 @@
     "awayGoals": null
   },
   {
-    "id": 567392,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5543,
-      "name": "Vitória SC",
-      "logo": "https://crests.football-data.org/5543.png"
-    },
-    "away": {
-      "id": 496,
-      "name": "Rio Ave FC",
-      "logo": "https://crests.football-data.org/496.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567393,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 6618,
-      "name": "Casa Pia AC",
-      "logo": "https://crests.football-data.org/6618.png"
-    },
-    "away": {
-      "id": 5531,
-      "name": "FC Famalicão",
-      "logo": "https://crests.football-data.org/5531.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567394,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 503,
-      "name": "FC Porto",
-      "logo": "https://crests.football-data.org/503.png"
-    },
-    "away": {
-      "id": 5529,
-      "name": "CD Nacional",
-      "logo": "https://crests.football-data.org/5529.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567395,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5530,
-      "name": "CD Santa Clara",
-      "logo": "https://crests.football-data.org/5530.png"
-    },
-    "away": {
-      "id": 9136,
-      "name": "CF Estrela da Amadora",
-      "logo": "https://crests.football-data.org/9136.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567396,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 583,
-      "name": "Moreirense FC",
-      "logo": "https://crests.football-data.org/583.png"
-    },
-    "away": {
-      "id": 5527,
-      "name": "Académico de Viseu FC",
-      "logo": "https://crests.football-data.org/5527.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567397,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 1903,
-      "name": "Sport Lisboa e Benfica",
-      "logo": "https://crests.football-data.org/1903.png"
-    },
-    "away": {
-      "id": 498,
-      "name": "Sporting Clube de Portugal",
-      "logo": "https://crests.football-data.org/498.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567398,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5533,
-      "name": "Gil Vicente FC",
-      "logo": "https://crests.football-data.org/5533.png"
-    },
-    "away": {
-      "id": 712,
-      "name": "FC Arouca",
-      "logo": "https://crests.football-data.org/712.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567399,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5575,
-      "name": "CS Marítimo",
-      "logo": "https://crests.football-data.org/5575.png"
-    },
-    "away": {
-      "id": 5613,
-      "name": "Sporting Clube de Braga",
-      "logo": "https://crests.football-data.org/5613.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567400,
-    "date": "2026-12-27T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 582,
-      "name": "GD Estoril Praia",
-      "logo": "https://crests.football-data.org/582.png"
-    },
-    "away": {
-      "id": 7822,
-      "name": "FC Alverca",
-      "logo": "https://crests.football-data.org/7822.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 560706,
     "date": "2026-12-27T14:00:00Z",
     "status": "NS",
@@ -9011,6 +8804,29 @@
       "id": 61,
       "name": "Chelsea FC",
       "logo": "https://crests.football-data.org/61.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567395,
+    "date": "2026-12-27T15:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5530,
+      "name": "CD Santa Clara",
+      "logo": "https://crests.football-data.org/5530.png"
+    },
+    "away": {
+      "id": 9136,
+      "name": "CF Estrela da Amadora",
+      "logo": "https://crests.football-data.org/9136.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -9062,6 +8878,75 @@
     "awayGoals": null
   },
   {
+    "id": 567399,
+    "date": "2026-12-28T18:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5575,
+      "name": "CS Marítimo",
+      "logo": "https://crests.football-data.org/5575.png"
+    },
+    "away": {
+      "id": 5613,
+      "name": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567398,
+    "date": "2026-12-28T18:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5533,
+      "name": "Gil Vicente FC",
+      "logo": "https://crests.football-data.org/5533.png"
+    },
+    "away": {
+      "id": 712,
+      "name": "FC Arouca",
+      "logo": "https://crests.football-data.org/712.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567394,
+    "date": "2026-12-28T20:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 503,
+      "name": "FC Porto",
+      "logo": "https://crests.football-data.org/503.png"
+    },
+    "away": {
+      "id": 5529,
+      "name": "CD Nacional",
+      "logo": "https://crests.football-data.org/5529.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 562044,
     "date": "2026-12-29T18:00:00Z",
     "status": "NS",
@@ -9080,6 +8965,29 @@
       "id": 59,
       "name": "Blackburn Rovers FC",
       "logo": "https://crests.football-data.org/59.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567393,
+    "date": "2026-12-29T18:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 6618,
+      "name": "Casa Pia AC",
+      "logo": "https://crests.football-data.org/6618.png"
+    },
+    "away": {
+      "id": 5531,
+      "name": "FC Famalicão",
+      "logo": "https://crests.football-data.org/5531.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -9407,6 +9315,29 @@
     "awayGoals": null
   },
   {
+    "id": 567397,
+    "date": "2026-12-29T20:45:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 1903,
+      "name": "Sport Lisboa e Benfica",
+      "logo": "https://crests.football-data.org/1903.png"
+    },
+    "away": {
+      "id": 498,
+      "name": "Sporting Clube de Portugal",
+      "logo": "https://crests.football-data.org/498.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 560712,
     "date": "2026-12-30T19:30:00Z",
     "status": "NS",
@@ -9563,6 +9494,29 @@
       "id": 61,
       "name": "Chelsea FC",
       "logo": "https://crests.football-data.org/61.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567400,
+    "date": "2026-12-30T20:15:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 582,
+      "name": "GD Estoril Praia",
+      "logo": "https://crests.football-data.org/582.png"
+    },
+    "away": {
+      "id": 7822,
+      "name": "FC Alverca",
+      "logo": "https://crests.football-data.org/7822.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -10258,6 +10212,29 @@
     "awayGoals": null
   },
   {
+    "id": 567409,
+    "date": "2027-01-02T20:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 498,
+      "name": "Sporting Clube de Portugal",
+      "logo": "https://crests.football-data.org/498.png"
+    },
+    "away": {
+      "id": 5530,
+      "name": "CD Santa Clara",
+      "logo": "https://crests.football-data.org/5530.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 564798,
     "date": "2027-01-03T00:00:00Z",
     "status": "NS",
@@ -10603,6 +10580,29 @@
     "awayGoals": null
   },
   {
+    "id": 567396,
+    "date": "2027-01-03T15:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 583,
+      "name": "Moreirense FC",
+      "logo": "https://crests.football-data.org/583.png"
+    },
+    "away": {
+      "id": 5527,
+      "name": "Académico de Viseu FC",
+      "logo": "https://crests.football-data.org/5527.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 559591,
     "date": "2027-01-03T16:15:00Z",
     "status": "NS",
@@ -10736,6 +10736,29 @@
       "id": 524,
       "name": "Paris Saint-Germain FC",
       "logo": "https://crests.football-data.org/524.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567392,
+    "date": "2027-01-03T20:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5543,
+      "name": "Vitória SC",
+      "logo": "https://crests.football-data.org/5543.png"
+    },
+    "away": {
+      "id": 496,
+      "name": "Rio Ave FC",
+      "logo": "https://crests.football-data.org/496.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -11822,75 +11845,6 @@
     "awayGoals": null
   },
   {
-    "id": 567402,
-    "date": "2027-01-10T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 9136,
-      "name": "CF Estrela da Amadora",
-      "logo": "https://crests.football-data.org/9136.png"
-    },
-    "away": {
-      "id": 582,
-      "name": "GD Estoril Praia",
-      "logo": "https://crests.football-data.org/582.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567403,
-    "date": "2027-01-10T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5531,
-      "name": "FC Famalicão",
-      "logo": "https://crests.football-data.org/5531.png"
-    },
-    "away": {
-      "id": 5543,
-      "name": "Vitória SC",
-      "logo": "https://crests.football-data.org/5543.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567404,
-    "date": "2027-01-10T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 5529,
-      "name": "CD Nacional",
-      "logo": "https://crests.football-data.org/5529.png"
-    },
-    "away": {
-      "id": 5533,
-      "name": "Gil Vicente FC",
-      "logo": "https://crests.football-data.org/5533.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 567405,
     "date": "2027-01-10T00:00:00Z",
     "status": "NS",
@@ -11937,29 +11891,6 @@
     "awayGoals": null
   },
   {
-    "id": 567407,
-    "date": "2027-01-10T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 7822,
-      "name": "FC Alverca",
-      "logo": "https://crests.football-data.org/7822.png"
-    },
-    "away": {
-      "id": 5575,
-      "name": "CS Marítimo",
-      "logo": "https://crests.football-data.org/5575.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
     "id": 567408,
     "date": "2027-01-10T00:00:00Z",
     "status": "NS",
@@ -11978,29 +11909,6 @@
       "id": 6618,
       "name": "Casa Pia AC",
       "logo": "https://crests.football-data.org/6618.png"
-    },
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": 567409,
-    "date": "2027-01-10T00:00:00Z",
-    "status": "NS",
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "logo": "https://crests.football-data.org/PPL.png",
-      "country": "Portugal"
-    },
-    "home": {
-      "id": 498,
-      "name": "Sporting Clube de Portugal",
-      "logo": "https://crests.football-data.org/498.png"
-    },
-    "away": {
-      "id": 5530,
-      "name": "CD Santa Clara",
-      "logo": "https://crests.football-data.org/5530.png"
     },
     "homeGoals": null,
     "awayGoals": null
@@ -12167,6 +12075,52 @@
     "awayGoals": null
   },
   {
+    "id": 567404,
+    "date": "2027-01-10T15:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5529,
+      "name": "CD Nacional",
+      "logo": "https://crests.football-data.org/5529.png"
+    },
+    "away": {
+      "id": 5533,
+      "name": "Gil Vicente FC",
+      "logo": "https://crests.football-data.org/5533.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567407,
+    "date": "2027-01-10T15:30:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 7822,
+      "name": "FC Alverca",
+      "logo": "https://crests.football-data.org/7822.png"
+    },
+    "away": {
+      "id": 5575,
+      "name": "CS Marítimo",
+      "logo": "https://crests.football-data.org/5575.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": 558786,
     "date": "2027-01-10T15:45:00Z",
     "status": "NS",
@@ -12254,6 +12208,52 @@
       "id": 109,
       "name": "Juventus FC",
       "logo": "https://crests.football-data.org/109.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567402,
+    "date": "2027-01-11T00:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 9136,
+      "name": "CF Estrela da Amadora",
+      "logo": "https://crests.football-data.org/9136.png"
+    },
+    "away": {
+      "id": 582,
+      "name": "GD Estoril Praia",
+      "logo": "https://crests.football-data.org/582.png"
+    },
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": 567403,
+    "date": "2027-01-11T00:00:00Z",
+    "status": "NS",
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "logo": "https://crests.football-data.org/PPL.png",
+      "country": "Portugal"
+    },
+    "home": {
+      "id": 5531,
+      "name": "FC Famalicão",
+      "logo": "https://crests.football-data.org/5531.png"
+    },
+    "away": {
+      "id": 5543,
+      "name": "Vitória SC",
+      "logo": "https://crests.football-data.org/5543.png"
     },
     "homeGoals": null,
     "awayGoals": null
